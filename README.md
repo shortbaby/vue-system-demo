@@ -5,10 +5,8 @@
 
 ## 人员说明
 ---
-RD: 陈小明  
-FE: 李小斌  
-PM: 易小为  
-QA: 黄龙
+FE: 徐官龙  
+
 
 ## 开发环境
 ---
@@ -17,7 +15,6 @@ QA: 黄龙
 
 ## 接口说明文档地址
 ---
-http://git.baijiahulian.com/yunying/tianxiao/
 
 ## 联调环境
 ---
