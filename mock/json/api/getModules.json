@@ -1,0 +1,225 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    {
+      "text": "首页",
+      "alias": "home",
+      "url" :"/home/agenda",
+      "menus": []
+    },
+    {
+      "text": "消息中心",
+      "alias": "message",
+      "url": null,
+      "menus": [
+        {
+          "text": "我的申请",
+          "url": "/message/apply"
+        },
+        {
+          "text": "我的审批",
+          "url": "/message/center"
+        },
+        {
+          "text": "消息列表",
+          "url": "/message/list"
+        }
+      ]
+    },
+    {
+      "text": "报表",
+      "alias": "report",
+      "url": null,
+      "menus": [
+        {
+          "text": "校区学生报表",
+          "url": "/report/student"
+        },
+        {
+          "text": "招生分析报表",
+          "url": "/report/analysis"
+        },
+        {
+          "text": "校区财务报表",
+          "url": "/report/financial"
+        },
+        {
+          "text": "班主任报表",
+          "url": "/report/teacher"
+        },
+        {
+          "text": "咨询顾问报表",
+          "url": "/report/adviser"
+        }
+      ]
+    },
+    {
+      "text": "线索",
+      "alias": "clue",
+      "url": null,
+      "menus": [
+        {
+          "text": "我的线索",
+          "url": "/clue/my"
+        },
+        {
+          "text": "公共线索",
+          "url": "/clue/common"
+        },
+        {
+          "text": "无效线索",
+          "url": "/clue/invalid"
+        }
+      ]
+    },
+    {
+      "text": "学生档案",
+      "alias": "student",
+      "url": null,
+      "menus": [
+        {
+          "text": "我的学生",
+          "url": "/student/my"
+        },
+        {
+          "text": "学生档案",
+          "url": "/student/common"
+        }
+      ]
+    },
+    {
+      "text": "课程管理",
+      "alias": "course",
+      "url": null,
+      "menus": [
+        {
+          "text": "课程列表",
+          "url": "/course/list"
+        },
+        {
+          "text": "课程分类",
+          "url": "/course/category"
+        }
+      ]
+    },
+    {
+      "text": "教务管理",
+      "alias": "educational",
+      "url": null,
+      "menus": [
+        {
+          "text": "待排课班级",
+          "url": "/educational/course"
+        },
+        {
+          "text": "课表",
+          "url": "/educational/timetable"
+        },
+        {
+          "text": "排课",
+          "url": ""
+        },
+        {
+          "text": "老师签到",
+          "url": "/educational/sign"
+        }
+      ]
+    },
+    {
+      "text": "财务管理",
+      "alias": "financial",
+      "url": null,
+      "menus": [
+        {
+          "text": "添加合同",
+          "url": "/financial/add"
+        },
+        {
+          "text": "合同列表",
+          "url": "/financial/list"
+        },
+        {
+          "text": "退费记录",
+          "url": "/financial/refund"
+        }
+      ]
+    },
+    {
+      "text": "家校通",
+      "alias": "wechat",
+      "url": null,
+      "menus": [
+        {
+          "text": "微信粉丝",
+          "url": "/wechat/fans"
+        }
+      ]
+    },
+    {
+      "text": "作业系统",
+      "alias": "homework",
+      "url": null,
+      "menus": [
+        {
+          "text": "题库",
+          "url": "/homework/question"
+        },
+        {
+          "text": "布置作业",
+          "url": "/homework/arrangement"
+        },
+        {
+          "text": "作业列表",
+          "url": "/homework/list"
+        }
+      ]
+    },
+    {
+      "text": "系统设置",
+      "alias": "setting",
+      "url": null,
+      "menus": [
+        {
+          "text": "校区管理",
+          "url": "/setting/school"
+        },
+        {
+          "text": "职位管理",
+          "url": "/setting/role"
+        },
+        {
+          "text": "员工管理",
+          "url": "/setting/user"
+        },
+        {
+          "text": "教师管理",
+          "url": "/setting/teacher"
+        },
+        {
+          "text": "教室管理",
+          "url": "/setting/classroom"
+        },
+        {
+          "text": "线索渠道管理",
+          "url": "/setting/channel"
+        },
+        {
+          "text": "基础参数设置",
+          "url": "/setting/parameter"
+        },
+        {
+          "text": "老师考勤",
+          "url": "/setting/attendance"
+        }
+      ]
+    },
+    
+    {
+      "text": "操作记录",
+      "alias": "log",
+      "url": "/log/history",
+      "menus": []
+    }
+  ]
+}

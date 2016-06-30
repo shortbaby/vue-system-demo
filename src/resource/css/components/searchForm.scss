@@ -1,0 +1,49 @@
+.search-form {
+    float: left;
+    margin: 10px 5px 0 0;
+    .form-control {
+        float: left;
+        width: 230px;
+        height: 19px;
+        line-height: 19px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    $button-size: 33px;
+    > button {
+        float: left;
+        border: 1px solid $brand;
+        border-left: none;
+        border-right: none;
+        width: $button-size;
+        height: $button-size;
+        line-height: $button-size;
+        padding-left: 0;
+        padding-right: 0;
+        background: $brand;
+        > span {
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+    .btn-group {
+        float: left;
+        > button {
+            border-right: none;
+            height: 33px;
+            &.btn-default {
+                background: none;
+                &:focus,
+                &:active {
+                    box-shadow: none;
+                    background: none;
+                    border: 1px solid #ccc;
+                    border-right: none;
+                }
+            }
+        }
+    }
+}
+> div {
+    float: left;
+}

@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "msg": null,
+  "data":
+      {
+      "id": 1,
+      "name": "孔祥印",
+      "mobile": 18834477439,
+      "supervisor": 1,
+      "supervisorName": "张兵",
+      "userType": 1,
+      "schoolId":0,
+      "schoolName":"百家互联",
+      "status": 1,
+      "gender":1,
+      "entryTime":1464695779214,
+      "emergencyContact":"张兵",
+      "contactMobile":"18077777777",
+      "address": "街道口",
+      "graduateSchool":"华中科技大学",
+      "education":"硕士",
+      "studyContry":"美国",
+      "schoolAge":2,
+      "resignedTime":1464695779214,
+      "resignedReason": "干的不爽",
+      "subjectIds":[
+         1,
+         2
+      ]
+    }
+}

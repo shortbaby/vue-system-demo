@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 1,
+        "mobile": "1511024xxxx",
+        "name": "张三",
+        "userType": 0,
+        "schoolId": 1,
+        "schoolName": "中南校区",
+        "gender": 0,
+        "status": 0,
+        "entryTime": 12312313123,
+        "emergencyContact": "紧急联系人姓名",
+        "contactMobile": "紧急联系人电话",
+        "address": "家庭住址",
+        "graduateSchool": "毕业学校",
+        "education": "教育程度",
+        "studyContry": "留学国家",
+        "experiences": "授课经验",
+        "resignedTime": "离职时间",
+        "resignedReason": "离职原因",
+        "createTime": 1212312312,
+        "updateTime": 1231231311
+    }
+}

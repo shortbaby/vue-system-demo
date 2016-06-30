@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "paperName": "学生试题1",
+        "studentId": 531,
+        "paperStudentId": 1,
+        "totalScore": 8.0,
+        "getScore": 0.0,
+        "questions": [{
+            "id": 56,
+            "name": "1.下列说法错误一项是()",
+            "questionType": 0,
+            "options": ["中国在亚洲", "湖北在中国", "武汉在湖北", "亚洲在武汉"],
+            "select": ["3"],
+            "score": 3.0,
+            "answer": ["1"],
+            "result": 1,
+            "getScore": 0.0,
+            "comment": null,
+            "submited": true
+        }, {
+            "id": 55,
+            "name": "飞渡有几个校区？",
+            "questionType": 1,
+            "options": ["1", "2", "3", "4", "5"],
+            "select": ["2", "3", "4"],
+            "score": 5.0,
+            "answer": ["3"],
+            "result": 1,
+            "getScore": 0.0,
+            "comment": null,
+            "submited": true
+        }],
+        "questionNum": 2,
+        "notify": "延期提交"
+    }
+}

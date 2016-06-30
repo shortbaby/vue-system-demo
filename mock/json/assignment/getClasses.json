@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "classesId": 1,
+        "classesName": "冲刺班",
+        "paperId": 1
+    }]
+}

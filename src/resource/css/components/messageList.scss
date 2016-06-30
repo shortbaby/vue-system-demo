@@ -1,0 +1,51 @@
+.message-list {
+	max-height: 300px;
+	overflow: auto;
+	li {
+		list-style: none;
+		padding: 8px;
+		position: relative;
+		border-bottom: 1px solid #eee;
+		&:last-child {
+			border-bottom: none;
+		}
+		&:hover {
+			background: #edf0f5;
+		}
+		> div {
+			display: inline-block;
+		}
+		.left {
+			position: absolute;
+		}
+		.right {
+			margin-left: 25px;
+			font-size: 12px;
+			.time {
+				float: right;
+			}
+		}
+		span {
+			margin-right: 6px;
+		}
+	}
+}
+.msg {
+	.popover {
+		max-width: 326px;
+	}
+	.popover-content {
+		padding-left: 0;
+		padding-right: 0;
+		p {
+			text-align: center;
+			&.more {
+				padding: 10px 0 0 0;
+				cursor: pointer;
+				&:hover {
+					color: #66ccff;
+				}
+			}
+		}
+	}
+}

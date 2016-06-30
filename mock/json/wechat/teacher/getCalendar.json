@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 1,
+            "time": 1466438400000,
+            "invalidTimeList": [
+                {
+                    "startTime": 1466470800000,
+                    "endTime": 1466481600000
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "time": 1466784000000,
+            "invalidTimeList": [
+                {
+                    "startTime": 1466827200000,
+                    "endTime": 1466834400000
+                }
+            ]
+        }
+    ]
+}

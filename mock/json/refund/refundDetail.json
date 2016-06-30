@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 1,
+        "studentId": 2,
+        "studentName": "王五",
+        "agreementId": 2,
+        "agreementNumber": "FD201606180000",
+        "name": "FD201606180000",
+        "schoolId": 1,
+        "classId": 2,
+        "className": "测试课程2",
+        "schoolName": "飞渡教育",
+        "price": 70000,
+        "discount": 60,
+        "grantAmount": 2000,
+        "receivalbleExpense": 0,
+        "realPayAmount": 40000,
+        "totalLesson": 10,
+        "finishedCount": 0,
+        "expectedReturnAmount": 40000,
+        "realReturnAmount": 10,
+        "remark": "rr",
+        "illustration": ""
+    }
+}

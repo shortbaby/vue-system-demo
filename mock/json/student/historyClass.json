@@ -1,0 +1,32 @@
+{
+  "msg": "succ",
+  "code": 0,
+  "data": {
+    "courses": [
+        {
+          "courseNumber": 1,
+          "courseName": "aaa",
+          "url": "http://test.i.genshuxiue.com/",
+          "courseType": 1,
+          "totalClassTimes": 20,
+          "finishClassTimes": 10,
+          "leftClassTimes": 10
+        },
+        {
+          "courseNumber": 2,
+          "courseName": "bbb",
+          "url": "http://test.i.genshuxiue.com/",
+          "courseType": 1,
+          "totalClassTimes": 20,
+          "finishClassTimes": 20,
+          "leftClassTimes": 0
+        }
+    ],
+    "pageDto": {
+      "count": 33,
+      "curPageCount": 5,
+      "pageNum": 1,
+      "pageSize": 5
+    }
+  }
+}

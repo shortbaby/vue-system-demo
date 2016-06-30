@@ -1,0 +1,102 @@
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstraplite';
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/m';
+
+.main {
+	.org-header {
+		width: 100%;
+        height:12rem;
+        color: #fff;
+        overflow: hidden;
+        position: relative;
+        background-color: #23ccfc;
+        .circle-left {
+            height: 25rem;
+            width: 25rem;
+            position: absolute;
+            background-color: #3dd6fd;
+            top: -80%;
+            border-radius: 50%;
+            left: -40%;
+        }
+        .circle-right {
+            height: 25rem;
+            width: 25rem;
+            position: absolute;
+            top: -20%;
+            border-radius: 50%;
+            right: -40%;
+            background-color: #21c0f5;
+        }
+		.org-info {
+			@include clearfix;
+			position: relative;
+			z-index: 10;
+			padding: 3rem 2rem;
+			> h3 {
+				font-weight: normal;
+				margin-top: .5rem;
+			}
+			> img {
+				float: left;
+				margin-right: 1rem;
+				background: #fff;
+				padding: 1rem;
+				border: .1rem solid #CCC;
+				width: 4rem;
+				height: 4rem;
+			}
+		}
+	}
+	> form {
+		background: #FFF;
+		padding: 2rem .5rem;
+		> .form-group {
+			margin-bottom: 2rem;
+			@include flex-container;
+			> label {
+				font-weight: normal;
+				color: #666;
+				min-width: 5rem;
+				text-align: right;
+				padding-right: 1rem;
+				line-height: 4rem;
+			}
+			> input {
+				border: none;
+				outline: none;
+				display: block;
+				height: 4rem;
+				min-width: 8rem;
+				line-height: 4rem;
+				@include flex(1);
+				border-bottom: 1px solid #CCC;
+				border-radius: 0;
+			}
+			> .btn {
+				border-radius: 2px;
+				background: #1ca8fc;
+				width: 122px;
+				height: 35px;
+				color: #fff;
+				&:disabled {
+					background: #999;
+					border: none;
+					color: #333;
+				}
+			}
+		}
+	}
+	.btns-group {
+		padding: 2rem;
+		> .btn-submit {
+			padding: 1rem 0;
+			width: 300px;
+			text-align: center;
+			background: #00ccff;
+			color: #fff;
+			width: 100%;
+		}
+	}
+}

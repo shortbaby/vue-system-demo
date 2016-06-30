@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "name": "xxxxxx",
+            "number": 3,
+            "percentage": 100
+        },
+        {
+            "name": "xx",
+            "number": 0,
+            "percentage": 0
+        },
+        {
+            "name": "xx",
+            "number": 0,
+            "percentage": 0
+        },
+        {
+            "name": "xxx",
+            "number": 0,
+            "percentage": 0
+        }
+    ]
+}

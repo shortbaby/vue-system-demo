@@ -1,0 +1,29 @@
+{
+    "code": 0,
+    "msg": "succ",
+    "data": {
+        "list": [{
+            "startTime": 1465261200000,
+            "endTime": 1465264800000,
+            "section": "9:00-10:30",
+            "classesName": "托福冲刺班",
+            "classesNumber": "TOVXC0305",
+            "subTypeName": "口语",
+            "schoolName": "武广校区",
+            "roomName": "CB2教室",
+            "teacherName": "李达",
+            "weekType": 0
+        }, {
+            "startTime": 1465452000000,
+            "endTime": 1465461000000,
+            "section": "14:30-16:30",
+            "classesName": "托福冲刺班",
+            "classesNumber": "TOVXC0305",
+            "subTypeName": "口语",
+            "schoolName": "武广校区",
+            "roomName": "CB2教室",
+            "teacherName": "李达",
+            "weekType": 2
+        }]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "id": 62,
+        "name": "请描述一下世界史？",
+        "questionType": 3,
+        "options": null,
+        "select": [],
+        "score": 30,
+        "answer": null,
+        "result": 0,
+        "getScore": 0,
+        "comment": null
+    }, {
+        "id": 61,
+        "name": "[{\"type\":\"fill\",\"content\":\"中午吃的什么\"},{\"type\":\"blank\",\"content\":\"茄子\"},{\"type\":\"fill\",\"content\":\"，还有呢\"},{\"type\":\"blank\",\"content\":\"西瓜\"}]",
+        "questionType": 2,
+        "options": null,
+        "select": [],
+        "score": 15,
+        "answer": [
+            "茄子",
+            "西瓜"
+        ],
+        "result": 0,
+        "getScore": 0,
+        "comment": null
+    }, {
+        "id": 60,
+        "name": "吃饭了吗？",
+        "questionType": 1,
+        "options": [
+            "吃了",
+            "没吃",
+            "准备吃",
+            "其他"
+        ],
+        "select": [],
+        "score": 10,
+        "answer": [
+            "0",
+            "2"
+        ],
+        "result": 0,
+        "getScore": 0,
+        "comment": null
+    }, {
+        "id": 58,
+        "name": "2.who are you?",
+        "questionType": 0,
+        "options": [
+            "dongqian",
+            "aiqin",
+            "lisisi"
+        ],
+        "select": [],
+        "score": 3,
+        "answer": [
+            "0"
+        ],
+        "result": 0,
+        "getScore": 0,
+        "comment": null
+    }]
+}

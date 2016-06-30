@@ -1,0 +1,59 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "list": [
+      {
+        "subjectId": 1,
+        "name": "托福",
+        "createTime": 1466243273556,
+        "userId": 1,
+        "userName": "李达",
+        "details": {
+          "id": 1,
+          "name": "口语"
+        }
+      },
+      {
+        "subjectId": 1,
+        "name": "托福",
+        "createTime": 1464331860298,
+        "userId": 1,
+        "userName": "李达",
+        "details": {
+          "id": 2,
+          "name": "听力"
+        }
+      },
+      {
+        "subjectId": 1,
+        "name": "托福",
+        "createTime": 1464331860298,
+        "userId": 1,
+        "userName": "Larry",
+        "details": {
+          "id": 3,
+          "name": "阅读"
+        }
+      },
+      {
+        "subjectId": 1,
+        "name": "托福",
+        "createTime": 1464331860298,
+        "userId": 1,
+        "userName": "Larry",
+        "details": {
+          "id": 4,
+          "name": "写作"
+        }
+      }
+    ]
+  },
+  "pageDto": {
+    "count": 4,
+    "curPageCount": null,
+    "pageNum": 1,
+    "pageSize": 20,
+    "totalPageNum": 5
+  }
+}

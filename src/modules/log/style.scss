@@ -1,0 +1,62 @@
+.logs {
+	background: #fff;
+	padding: 0 10px 10px 10px;
+	.search-wrap {
+		.input-control {
+			position: relative;
+			.form-control {
+				margin-left: 4px;
+				border-left: 1px solid #ccc;
+			}
+			.time-input {
+				width: 100px;
+				font-size: 12px;
+				border-left: 1px solid #ccc;
+			}
+			.icon-calendar {
+				position: absolute;
+				right: 200px;
+				top: 10px;
+				&.cal-2 {
+					right: 60px;
+				}
+			}
+			.step {
+				margin-right: 5px;
+			}
+			&:last-child {
+				width: 410px;
+				position: relative;
+			}
+		}
+	}
+    // .option {
+    //     position: relative;
+    //     h3 {
+    //         display: inline-block;
+    //         color: #666;
+    //         font-weight: normal;
+    //         > .icon-xueyuan {
+    //             font-size: 32px;
+    //             float: left;
+    //             margin: 10px 6px 0 0;
+    //         }
+    //         > span {
+    //             font-size: 30px;
+    //             color: #555;
+    //         }
+    //     }
+    //     .opration {
+    //         display: inline-block;
+    //         position: absolute;
+    //         right: 20px;
+    //         top: 5px;
+    //         .search {
+    //             width: 50px;
+    //         }
+    //         .reset {
+    //             width: 50px;
+    //         }
+    //     }
+    // }
+}

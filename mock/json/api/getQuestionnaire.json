@@ -1,0 +1,7 @@
+{
+	"msg": "succ",
+	"code": 0,
+	"data": {
+		"content":"{\"future\":{\"country\":\"\",\"budget\":0,\"subject\":\"\",\"course\":\"\",\"studyTimes\":[]},\"beforeScore\":[{\"subject\":\"\",\"time\":\"\",\"total\":0,\"read\":0,\"listen\":0,\"speak\":0,\"article\":0}],\"beforeStudy\":[{\"time\":\"\",\"subject\":\"\",\"org\":\"\",\"teacher\":\"\",\"pratice\":\"\",\"teacherComment\":\"\"}],\"beforeAbroad\":[{\"time\":\"\",\"subject\":\"\",\"testTime\":\"\"}],\"coursePlan\":[{\"time\":\"\",\"class\":\"\",\"content\":\"\"}],\"demandForScore\":\"\",\"demandForStudent\":\"\",\"demandForCourse\":\"\",\"demandForTimeOrAddress\":\"\",\"relationship\":\"\",\"other\":\"\"}"
+	}
+}

@@ -1,0 +1,760 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "lateNum": 10,
+        "absentNum": 10,
+        "attendenceList": [
+        {
+            "day": 1,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 2,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 3,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 4,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 5,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 6,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 7,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 8,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 9,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 10,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 11,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 12,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 13,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 14,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 15,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 16,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 17,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 18,
+            "attendences": [
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 0
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 2
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 3
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 4
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 5
+            }
+        ]
+        },
+        {
+            "day": 19,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 20,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 21,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 22,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 23,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 24,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 25,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 0
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 2
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 3
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 4
+            },
+            {
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 5
+            }
+        ]
+        },
+        {
+            "day": 26,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 5
+            }]
+        },
+        {
+            "day": 27,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 28,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 29,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        },
+        {
+            "day": 30,
+            "attendences": [{
+                "classesId": 1,
+                "classesNum": "xxx001",
+                "classesName": "冲刺班",
+                "subTypeId": 1,
+                "subTypeName": "口语",
+                "classesTime": "14:30~15:30（1小时)",
+                "roomId": 1,
+                "roomName": "中南001",
+                "teacherId": 1,
+                "teacherName": "张兵",
+                "signTime": "16：32",
+                "index": 10,
+                "totalLesson": 20,
+                "status": 1
+            }]
+        }
+
+    ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "classesInfo": {
+            "info": {
+                "id": 1,
+                "number": "TOKL102948",
+                "name": "雅思冲刺班",
+                "subjectId": 1,
+                "subjectName": "雅思",
+                "classesType": 0,
+                "classesTypeName": "VIP",
+                "startTime": 1426731273213,
+                "expectedEndTime": 14267314342344,
+                "price": 10000,
+                "capacity": 10,
+                "schoolId": 1,
+                "schoolName": "中南校区",
+                "totalLessons": 50,
+                "signCount": 32,
+                "classesStatus": 0,
+                "classesStatusStr": "上课中"
+            },
+            "classesDetails": [{
+                "id": 1,
+                "name": "口语",
+                "totalLesson": 10
+            }]
+        },
+        "summarys": [{
+            "id": 1,
+            "day": "2016-03-23",
+            "section": "09:30~10:30",
+            "index": 2,
+            "subTypeName": "口语",
+            "roomName": "302",
+            "schoolName": "中南校区",
+            "signCount": 2,
+            "totalStudent": 10,
+            "status": 0
+        }]
+    }
+}

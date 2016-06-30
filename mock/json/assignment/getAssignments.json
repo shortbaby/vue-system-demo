@@ -1,0 +1,21 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [{
+            "id": 1,
+            "name": "冲刺班第一次作业",
+            "latestTime": 1000000000,
+            "creatTime": 10000000,
+            "hasCorrect": 10,
+            "total": 30
+        }]
+    },
+    "pageDto": {
+        "count": 40,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 2
+    }
+}

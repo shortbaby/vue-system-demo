@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "id": 1,
+    "name": "张兵",
+    "mobile": "13457698888",
+    "parentName": "张伯伯",
+    "parentMobile": "11"
+  }
+}

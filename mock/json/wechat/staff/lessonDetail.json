@@ -1,0 +1,25 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 1,
+        "schoolId": 1,
+        "schoolName": "大学",
+        "classesId": 2,
+        "classesName": "环境的撒旦",
+        "classesNumber": 13123,
+        "startTime": 143612362153,
+        "endTime": 1453213621632,
+        "subTypeId": 4,
+        "subTypeName": "tttyyyyyy",
+        "index": 2,
+        "totalLessons": 15,
+        "roomId": 34,
+        "roomName": "创世纪203",
+        "teacherId": 111,
+        "teacherName": "李达",
+        "duration": "1小时",
+        "signCount": 30,
+        "checkinCount": 15
+    }
+}

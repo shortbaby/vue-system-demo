@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "name": "跟谁学",
+                "rebate": 3,
+                "status":0,
+                "label":"正常"
+            },
+            {
+                "id": 2,
+                "name": "百度",
+                "rebate": 1,
+                "status":0,
+                "label":"正常"
+            },
+            {
+                "id": 3,
+                "name": "AA公司",
+                "rebate": 2,
+                "status":0,
+                "label":"正常"
+            }
+        ]
+    },
+    "pageDto": {
+        "count": 30,
+        "curPageCount": 2,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

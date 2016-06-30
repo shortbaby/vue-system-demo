@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "checkinDetail": [{
+            "id": 12,
+            "name": "张三",
+            "status": 0,
+            "userRole": 0,
+            "signId": null,
+            "signWay": 0,
+            "signWayStr": "手动签到",
+            "statusStr": "已手动签到"
+        }],
+        "teacherDetail": {
+            "id": 11,
+            "name": "张三",
+            "status": 0,
+            "userRole": 1,
+            "signId": null,
+            "signWay": 0,
+            "signWayStr": "手动签到",
+            "statusStr": "已手动签到"
+        }
+    }
+}

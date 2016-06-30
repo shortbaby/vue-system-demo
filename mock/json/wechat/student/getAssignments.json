@@ -1,0 +1,120 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "list": [
+      {
+        "paperStudentId": 50,
+        "name": "333",
+        "questionNum": 1,
+        "paperId": 11,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466783265000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 41,
+        "name": "333",
+        "questionNum": 1,
+        "paperId": 10,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466783265000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 32,
+        "name": "333",
+        "questionNum": 1,
+        "paperId": 9,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466783265000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 23,
+        "name": "333",
+        "questionNum": 1,
+        "paperId": 8,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466783265000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 14,
+        "name": "333",
+        "questionNum": 1,
+        "paperId": 7,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466783265000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 2,
+        "name": "3",
+        "questionNum": 3,
+        "paperId": 2,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1466670077000,
+        "status": 0,
+        "statusStr": "未提交",
+        "rightNum": 0,
+        "errorNum": 0,
+        "score": null,
+        "remind": "已超时"
+      },
+      {
+        "paperStudentId": 1,
+        "name": "2",
+        "questionNum": 1,
+        "paperId": 1,
+        "classinfoName": null,
+        "submitTime": 0,
+        "latestTime": 1467184820000,
+        "status": 2,
+        "statusStr": "已批改",
+        "rightNum": 3,
+        "errorNum": 1,
+        "score": 90,
+        "remind": ""
+      }
+    ]
+  },
+  "pageDto": {
+    "count": 7,
+    "curPageCount": 7,
+    "pageNum": 1,
+    "pageSize": 20,
+    "totalPageNum": 1
+  }
+}

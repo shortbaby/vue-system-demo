@@ -1,0 +1,56 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "ownList": [
+            {
+                "id": 0,
+                "schoolId": 1,
+                "schoolName": "武广校区",
+                "classesId": 0,
+                "classesName": "托福冲刺班",
+                "classesNumber": "TOVXC0305",
+                "startTime": 1466470800000,
+                "endTime": 1466478000000,
+                "subTypeId": 0,
+                "subTypeName": "口语",
+                "index": 0,
+                "totalLesons": 0,
+                "roomId": 0,
+                "roomName": "CB2教室",
+                "teacherId": 0,
+                "teacherName": "李达",
+                "duration": 0,
+                "signCount": 0,
+                "checkinCount": 0,
+                "weekType": 2,
+                "section": "9:00-11:00"
+            }
+        ],
+        "otherList": [
+            {
+                "id": 0,
+                "schoolId": 0,
+                "schoolName": null,
+                "classesId": 0,
+                "classesName": null,
+                "classesNumber": null,
+                "startTime": 1466560800000,
+                "endTime": 1466568000000,
+                "subTypeId": 0,
+                "subTypeName": null,
+                "index": 0,
+                "totalLesons": 0,
+                "roomId": 0,
+                "roomName": null,
+                "teacherId": 0,
+                "teacherName": null,
+                "duration": 0,
+                "signCount": 0,
+                "checkinCount": 0,
+                "weekType": 3,
+                "section":"9:30-10:30"
+            }
+        ]
+    }
+}

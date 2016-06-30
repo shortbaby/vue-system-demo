@@ -1,0 +1,24 @@
+{% extends './common/base.html' %}
+
+{% block title %}
+	通知详情
+{% endblock %}
+
+{% block style %}
+	<link rel="stylesheet" href="/src/m/weixin/notice.scss" type="text/css" />
+{% endblock %}
+
+{% block main %}
+	<div class="main" id="main" v-cloak>
+		<h3>{{msg.title}}</h3>
+		<p class="time">{{msg.msgTime}}</p>
+		<p class="content">{{msg.content}}</p>
+		<div>
+			<img :src="item" v-for="item in msg.urls">
+		</div>	
+	</div>
+{% endblock %}
+
+{% block script %}
+	<script src="/output/src/notice.js"></script>
+{% endblock %}

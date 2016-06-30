@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "sign": [
+            {
+                "id": 1,
+                "name": "班级名称",
+                "number": "班级编号",
+                "signStatus": 0,
+                "startTime": 1464682978135,
+                "endTime": 1464682978134,
+                "scheduleId": 1,
+                "signStudents": 5,
+                "totalStudents": 20
+            },
+            {
+                "id":21,
+                "name": "班级名称",
+                "number": "班级编号",
+                "signStatus": 0,
+                "startTime": 1464682978135,
+                "endTime": 1464682978134,
+                "scheduleId": 1,
+                "signStudents": 5,
+                "totalStudents": 20
+            }
+        ],
+        "unsign": {
+            "id": 1,
+            "name": "班级名称",
+            "number": "班级编号",
+            "signStatus": 0,
+            "startTime": 1464682978135,
+            "endTime": 1464682978134,
+            "scheduleId": 1,
+            "signStudents": 5,
+            "totalStudents": 20
+        }
+    }
+}

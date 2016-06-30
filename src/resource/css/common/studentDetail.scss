@@ -1,0 +1,211 @@
+
+.profile {
+	@include clearfix();
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+	&-name {
+		max-width: 500px;
+		overflow: hidden;
+		float: left;
+		font-weight: normal;
+	}
+	&:before {
+		width: 48px;
+		height: 48px;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 50%;
+		display: inline-block;
+		content: attr(data-name);
+		background: $brand;
+		color: #FFF;
+		line-height: 48px;
+		text-align: center;
+		float: left;
+		margin-right: 10px;
+	}
+	.tags {
+		margin-top: 5px;
+		> li {
+			display: inline-block;
+			list-style: none;
+			background: #effaff;
+			padding: 3px 10px;
+			margin-right: 10px;
+			margin-bottom: 5px;
+			color: $brand;
+			font-weight: normal;
+			border: 1px solid $brand;
+		}
+		> span {
+			color: #999;
+		}
+	}
+	.btn {
+		float: right;
+		margin-top: 20px;
+	}
+}
+
+.student-detail {
+	overflow: hidden;
+	.follow-record {
+		width: 203px;
+		float: right;
+		padding-top: 30px;
+		padding-left: 110px;
+		> ul {
+			border-left: 1px solid #DDD;
+			padding-top: 25px;
+			height: 100%;
+			> li {
+				list-style: none;
+				position: relative;
+				padding-bottom: 40px;
+				> .date {
+					display: inline-block;
+					width: 10px;
+					background: #efefef;
+					position: absolute;
+					top: -30px;
+					left: -54px;
+					padding: 3px 0;
+					> span {
+						height: 25px;
+						line-height: 25px;
+						display: inline-block;
+						background: $gray-lighter;
+						border: 1px solid #dbdbdb;
+						width: 108px;
+						height: 32px;
+						line-height: 32px;
+						text-align: center;
+					}
+				}
+				> div {
+					position: relative;
+					> .time {
+						position: absolute;
+						left: -60px;
+						top: 20px;
+						color: $gray-999;
+					}
+					> .content {
+						word-break: break-all;
+						padding: 20px 10px 0 10px;
+						color: $gray-999;
+						> ul {
+							margin-top: 5px;
+							> li {
+								list-style: none;
+								display: inline-block;
+								margin-right: 10px;
+								> img {
+									margin-bottom: 3px;
+								}
+							}
+						}
+						> .audio {
+						}
+					}
+					> .circle {
+						position: absolute;
+						padding: 1px 0;
+						left: -5px;
+						top: 18px;
+						background: #efefef;
+						> span {
+							display: inline-block;
+							background: #00a8fd;
+							border-radius: 50%;
+							width: 9px;
+							height: 9px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.student-info {
+	border-right: 1px solid #DDD;
+
+	float: left;
+	width: 474px;
+	padding-bottom: 3000px;
+	margin-bottom: -3000px;
+	
+	> .menu {
+		@include clearfix;
+		position: relative;
+		z-index: 3;
+		top: 1px;
+		> li {
+			float: left;
+			list-style: none;
+			margin-right: 10px;
+			height: 45px;
+			line-height: 45px;
+			padding: 0 10px;
+			cursor: pointer;
+			&.active {
+				border-bottom: 2px solid $brand;
+			}
+		}
+	}
+	> .info-detail {
+		border-top: 1px solid #ddd;
+		> li {
+			> label {
+				color: #999;
+				width: 150px;
+			}
+			padding: 10px 0;
+		}
+	}
+	> .coruse-info {
+		padding: 10px 20px;
+		border-top: 1px solid #ddd;
+		> ul {
+			margin-bottom: 20px;
+			> .total-info {
+				margin-bottom: 5px;
+				> ul {
+					@include clearfix;
+					> li {
+						list-style: none;
+						> span {
+							margin-right: 10px;
+						}
+					}
+					.course-name {
+						float: left;
+						font-size: 18px;
+						max-width: 200px;
+						@include text-overflow;
+					}
+					.total-count {
+						float: right;
+					}
+				}
+			}
+			> li {
+				list-style: none;
+				&.course-progress {
+					background: #ddd;
+					height: 10px;
+					position: relative;
+					overflow: hidden;
+					> span {
+						position: absolute;
+						left: 0;
+						top: 0;
+						background: $brand;
+						width: 50%;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,333 @@
+/**
+ * @file mobile site
+ * @author xuguanlong
+ */
+section {
+	background: #FFF;
+	margin: 1rem 0;
+	padding: 1rem;
+	.section-list {
+		> li {
+			position: relative;
+			margin-bottom: 10px;
+			height: 3rem;
+			line-height: 3rem;
+			.icon-right {
+				position: absolute;
+				right: 0;
+				top: .5rem;
+				font-size: 2rem;
+				color: $gray-dark;
+			}
+		}
+	}
+}
+
+.btn-blue-light {
+	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid $brand;
+	color: $brand;
+    &:hover {
+        color: $brand;
+        background: #fbfbfb;
+        border-color: $brand;
+    }
+}
+
+.fixed-footer {
+	position: fixed;
+	background: #EEE;
+	border-top: 1px solid #CCC;
+	bottom: 0;
+	width: 100%;
+	height: 4rem;
+	line-height: 4rem;
+	z-index: 100;
+	left: 0;
+	> ul {
+		@include flex-container();
+		> li {
+			@include flex(1);
+			text-align: center;
+			list-style: none;
+			&.active {
+				a {
+					color: $orange;
+				}
+			}
+		}
+	}
+}
+
+.main {
+	padding-bottom: 50px;
+}
+.timetable-item {
+    padding: 1rem;
+    font-size: 1.4rem;
+    > div {
+        position: relative;
+        display: inline-block;
+        &.current {
+            color: $brand;
+        }
+        .time {
+            padding: .5rem 1rem;
+            background: #fff;
+            margin-left: .6rem;
+            border-radius: .3rem;
+            &::before{
+                content: ' ';
+                position: absolute;
+                width: 0;
+                height: 0;
+                left: -.8rem;
+                top: .7rem;
+                border: .8rem solid;
+                border-color: transparent #fff transparent transparent;
+            }
+        }
+    }
+    .timetable-list {
+        margin-top: 1rem;
+        .timetable-list-item {
+            position: relative;
+            margin-top: 2rem;
+            list-style: none;
+            background: #fff;
+            box-shadow: 0 0 1px #ccc;
+            box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+            &:first-child {
+                margin-top: .5rem;
+                .circle {
+                    display: block !important;
+                }
+            }
+        }
+        .tabletime-time {
+            position: absolute;
+            display: inline-block;
+            width: 6.45rem;
+            // height: 100%;
+            box-sizing: border-box;
+            color: #fff;
+            background: $light-blue;
+            &.over {
+                background: #eaeaea;
+                color: #7d7d7d; 
+            }
+            p {
+                height: 2.3rem;
+                box-sizing: border-box;
+                font-size: 1.3rem;
+                line-height: 2.3rem;
+                text-align: center;
+                &:first-child {
+                    position: relative;
+                    top: .4rem;
+                    padding-top: .5rem;
+                }
+                &:last-child {
+                    position: relative;
+                    top: -.5rem;
+                    padding-bottom: .5rem;
+                }
+               
+            }
+        }
+        .timetable-content {
+            position: relative;
+            height: 6.9rem;
+            margin-left: 6.45rem;
+            .sign-info {
+                position: absolute;
+                width: 6rem;
+                height: 6rem;
+                border-radius: 3rem;
+                top: .5rem;
+                right: 1rem;
+                background: $light-blue;
+                color: #fff;
+                &.unsigned {
+                    background: #eaeaea;
+                    color: #7d7d7d;
+                }
+                div {
+                    text-align: center;
+                    position: relative;
+                    top: .4rem;
+                    &:first-child {
+                        &.unsign {
+                            height: 5rem;
+                            line-height: 5rem;
+                            font-size: 1.6rem; 
+                            top: 0;
+                        }
+                        span {
+                            line-height: 2rem;
+                        }
+                       
+                    }
+                }
+            }
+            p {
+                position: relative;
+                height: 2.3rem;
+                padding: 0 .8rem;
+                box-sizing: border-box;
+                line-height: 2.3rem;
+                .class-people {
+                    margin-right: .5rem;
+                }
+                .icon-people {
+                    margin-right: .3rem;
+                }
+                .icon-classroom {
+                    margin-right: .3rem;
+                }
+                &:nth-child(2) {
+                    font-size: 1.2rem;
+                }
+                &.text-line-1 {
+                	height: 3.4rem;
+                	line-height: 3.4rem;
+                	font-size: 1.5rem;
+                }
+                &.text-line-2 {
+                	height: 3.4rem;
+                	line-height: 3.4rem;
+                	font-size: 1.5rem;
+                }
+            }
+            .text-line-1 {
+                > span {
+                    &:first-child {
+                        display: inline-block;
+                        vertical-align: middle;
+                        @include text-overflow();
+                    }
+                    &.status {
+                        color: #7d7d7d;
+                    }
+                }
+            }
+            .text-line-2 {
+                position: relative;
+                .class-index {
+                    font-size: 1.2rem;
+                    vertical-align: middle;
+                    color: #959595;
+                }
+                span {
+                    &:nth-child(2) {
+                        // position: absolute;
+                        // lef: .8rem;
+                    }
+                }
+            }
+            .text-line-3 {
+                position: relative;
+                top: -.4rem;
+                > span {
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    @include text-overflow();
+                }
+                .class-people,
+                .class-room {
+                    display: inline-block;
+                    vertical-align: middle;
+                    @include text-overflow();
+                }
+                .class-people {
+                    width: 6rem;
+                }
+                .class-room {
+                    width: 9rem;
+                }
+            }
+        }
+    }
+}
+
+.sign {
+    .student-list {
+        > ul {
+            margin-bottom: 10px;
+            li {
+                display: inline-block;
+                &.name {
+                    width: 80px;
+                    @include text-overflow();
+                    text-align: right;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .active {
+            background: $brand-shallow;
+            border: 1px solid $brand-shallow;
+        }
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .timetable-list {
+        .timetable-list-item {
+            .timetable-content {
+                p.text-line-1 {
+                	font-size: 1.2rem;
+                    .class-name {
+                        max-width: 12rem;
+                    }
+                }
+                p.text-line-2 {
+                	font-size: 1.2rem;
+                    .class-people,
+                    .class-room {
+                        max-width: 9rem;
+                    }
+                }
+                .sign-info {
+                	height: 5rem;
+                	width: 5rem;
+                	top: 1rem;
+                	div {
+                		&:first-child {
+                			height: 4rem;
+                			line-height: 4rem;
+                			font-size: 1.4rem;
+                		}
+                	}
+                }
+            }
+        }
+    }
+}
+@media screen and (min-device-width: 321px) {
+    .timetable-list {
+        .timetable-list-item {
+            .timetable-content {
+                p.text-line-1 {
+                	font-size: 1.4rem;
+                    .class-name {
+                        max-width: 14rem;
+                    }
+                }
+                p.text-line-2 {
+                	font-size: 1.4rem;
+                    .class-people,
+                    .class-room {
+                        max-width: 10rem;
+                    }
+                }
+                .sign-info {
+                	height: 6rem;
+                	width: 6rem;
+                }
+            }
+        }
+    }
+}

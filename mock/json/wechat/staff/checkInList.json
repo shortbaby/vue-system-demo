@@ -1,0 +1,53 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "checkinDetail": [{
+            "id": 372,
+            "name": "线索2",
+            "status": 0,
+            "statusStr": "未签到",
+            "userRole": 0,
+            "signId": null,
+            "signWay": null,
+            "signWayStr": null
+        }, {
+            "id": 373,
+            "name": "线索3",
+            "status": 1,
+            "statusStr": "已签到",
+            "userRole": 0,
+            "signId": 1,
+            "signWay": 1,
+            "signWayStr": "已二维码签到"
+        }, {
+            "id": 374,
+            "name": "线索4",
+            "status": 0,
+            "statusStr": "未签到",
+            "userRole": 0,
+            "signId": null,
+            "signWay": null,
+            "signWayStr": null
+        }, {
+            "id": 497,
+            "name": "线索11fd",
+            "status": 0,
+            "statusStr": "未签到",
+            "userRole": 0,
+            "signId": null,
+            "signWay": null,
+            "signWayStr": null
+        }],
+        "teacherDetail": {
+            "id": 16,
+            "name": "3号老师",
+            "status": 0,
+            "statusStr": "未签到",
+            "userRole": 1,
+            "signId": null,
+            "signWay": null,
+            "signWayStr": null
+        }
+    }
+}

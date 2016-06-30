@@ -1,0 +1,29 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "number": "FD391604240000",
+                "type": "新合同",
+                "status": "正常",
+                "signTime": 1464070885000,
+                "signerId": 14,
+                "sigener": "孔祥印",
+                "studentId": 1,
+                "studentName": "xx",
+                "studentMobile": "11",
+                "price": 6,
+                "realPayAmount": 2
+            }
+        ]
+    },
+    "pageDto": {
+        "count": 13,
+        "curPageCount": 13,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

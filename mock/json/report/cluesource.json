@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "name": "百度",
+            "number": 63,
+            "percentage": 63
+        },
+        {
+            "name": "Google",
+            "number": 18,
+            "percentage": 18
+        },
+        {
+            "name": "跟谁学",
+            "number": 9,
+            "percentage": 9
+        },
+        {
+            "name": "熟人介绍",
+            "number": 10,
+            "percentage": 10
+        }
+    ]
+}

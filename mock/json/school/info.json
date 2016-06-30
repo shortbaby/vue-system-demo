@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "id": 3,
+    "name": "百家互联3",
+    "schoolType": 0,
+    "supervisorId": 1,
+    "supervisorName": "百家互联",
+    "color": "#000000",
+    "userId": 14,
+    "userName": "孔祥印",
+    "areaId": 1,
+    "province": "湖北",
+    "city": "武汉",
+    "county": "洪山",
+    "address": "街道口百脑汇跟谁学",
+    "createTime": 1462528237000,
+    "updateTime": 1464251164000
+  }
+}

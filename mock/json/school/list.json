@@ -1,0 +1,73 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "百家互联",
+      "schoolType": 0,
+      "supervisorId": 0,
+      "level":0,
+      "children": [
+        {
+          "id": 2,
+          "name": "百家互联2",
+          "schoolType": 0,
+          "supervisorId": 1,
+          "level":1,
+          "children": [
+            {
+              "id": 998,
+              "name": "百家互联998",
+              "schoolType": 0,
+              "supervisorId": 2,
+              "level":2,
+              "children": [
+                {
+                  "id": 1000,
+                  "name": "百家互联1000",
+                  "schoolType": 0,
+                  "supervisorId": 998,
+                  "level":3,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 999,
+              "name": "百家互联999",
+              "schoolType": 0,
+              "supervisorId": 2,
+              "level":2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "百家互联3",
+          "schoolType": 0,
+          "supervisorId": 1,
+          "level":1,
+          "children": []
+        },
+        {
+          "id": 4,
+          "name": "百家互联4",
+          "schoolType": 0,
+          "supervisorId": 1,
+          "level":1,
+          "children": []
+        },
+        {
+          "id": 5,
+          "name": "百家互联5",
+          "schoolType": 0,
+          "supervisorId": 1,
+          "level":1,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

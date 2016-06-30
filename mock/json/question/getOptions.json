@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "subjects": [ 
+       {
+          "id":1,
+          "name":"雅思"
+       },
+       {
+           "id":2,
+           "name":"托福"
+       } 
+    ] 
+  }
+}

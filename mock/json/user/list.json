@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "list":[
+      {
+        "id": 0,
+        "name": "孔祥印",
+        "mobile": 18827343756,
+        "userType": 1,
+        "status": 2,
+        "gender":1,
+        "schoolId":0,
+        "schoolName":"百家互联",
+        "creatorName":"孔祥印",
+        "roleIds":[
+           1,
+           2
+        ],
+        "roleNames":[
+           "销售",
+           "财务"
+        ]
+     }
+   ]
+  },
+  "pageDto": {
+    "count": 100,
+    "curPageCount": 1,
+    "pageNum": 1,
+    "pageSize": 20,
+    "totalPageNum": 1
+  }
+}

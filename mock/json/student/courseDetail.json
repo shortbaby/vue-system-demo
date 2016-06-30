@@ -1,0 +1,33 @@
+{
+    "code": 0,
+    "msg": "succ",
+    "data": {
+        "info": {
+            "id": 1,
+            "number": "TOKL102948",
+            "name": "雅思冲刺班",
+            "subjectId": 1,
+            "subjectName": "雅思",
+            "classesType": 0,
+            "schoolId": 1,
+            "schoolName": "中南校区",
+            "totalLessons": 50,
+            "signCount": 32,
+            "status": 0,
+            "statusStr": "上课中"
+        },
+        "classesDetails": [{
+            "id": 123,
+            "name": "口语",
+            "totalLesson": 15,
+            "finishLesson": 5
+        }, {
+            "id": 456,
+            "name": "听力",
+            "totalLesson": 10,
+            "finishLesson": 7
+        }]
+    }
+
+
+}

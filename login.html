@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <base href="/"></base>
+        <meta charset="UTF-8">
+        <title>飞渡教育</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="description" content="跟谁学 机构平台 - 携手同行 共筑梦想"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=11"> 
+        <link rel="shortcut icon" href="http://www.tianxiao100.com/favicon.ico" />
+        <link rel="stylesheet" href="src/resource/css/plugins.scss" type="text/css" />
+        <link rel="stylesheet" href="src/resource/css/main.scss" type="text/css" />
+    </head>
+
+    <body class="login-body">
+        <!--[if lte IE 9]>
+        <div class="not-support-browser">
+            很抱歉，在当前浏览器上，我们无法为您提供完整的功能和最好的体验。推荐使用Google Chrome浏览器来获取最好的使用体验。
+        </div>
+        <![endif]-->
+        <div class="not-support-browser not-support-360-chrome" id="notSupport360Chrome">
+            当您使用的是360(极速)浏览器时，如果网页不能正常工作，请将浏览器切换至兼容模式。
+            <a href="http://se.360.cn/v6/help/help5.html" target="_blank">如何切换？</a>
+        </div>
+        <toast :show.sync="showToast" v-cloak>{{ toastMessage }}</toast>
+        <alert :show.sync="showAlert" :type="alertType" v-cloak>
+            <p>{{alertMessage}}</p>
+        </alert>
+       <!--  <confirm :show.sync="showConfirm" :width="400" v-cloak>
+            <span slot="title-txt">提示</span>
+            <span slot="confirm-msg">你确定吗?</span>
+        </confirm> -->
+        <div class="login">
+            <div class="logo-feidu-login">
+                <img src="src/resource/img/logo-feidu-login.png">
+            </div>
+            <p>登录管理系统</p>
+            <form>
+                <div class="form-li">
+                    <span class="icon-username"></span>
+                    <input type="text" :class="{'error': userNameCheck}" id="username" name="username" placeholder="请输入用户名" v-model="username">
+                    <v-select :options="userRoleOptions" :close-on-select="true" :value.sync="userRole | str"></v-select>
+                </div>
+                <div class="form-li">
+                    <span class="icon-password"></span>
+                    <input type="password" :class="{'error': passwordCheck}" id="password" name="password" placeholder="请输入密码" v-model="password">
+                </div>
+                <verify-code v-if="showVerifyCode" :show.sync="showVerifyCode" :code.sync="code" :check.sync="codeCheck" :mobile="username"></verify-code>
+                <div class="form-li clearfix">
+                   <!--  <label class="remember">
+                        <input type="checkbox">下次自动登录
+                    </label> -->
+                </div>
+                <div class="form-li">
+                    <input class="btn-submit" data-disable-with="登录中..." name="commit" type="button" value="登录" @click="submit($event)">
+                </div>
+            </form>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        (function () {
+            var win = window;
+            var _is360chrome=false;
+
+            if (!win.chrome) {
+                return;
+            }
+
+            try{
+              if(typeof( chrome )!= "undefined" && typeof( chrome.webstorePrivate)!='undefined' && typeof (chrome.webstorePrivate.beginInstallWithManifest3)!='undefined'){
+                _is360chrome=true;
+              }else {
+                _is360chrome=navigator.userAgent.toLowerCase().indexOf('360ee')!=-1;
+              }
+            }catch(e){};
+
+            var _track = 'track' in document.createElement('track');
+            var webstoreKeysLength = win.chrome && win.chrome.webstore ? Object.keys(win.chrome.webstore).length : 0;
+
+            if (!_is360chrome) {
+                if (win.clientInformation && win.clientInformation.permissions) {
+                    _is360chrome = false;
+                }
+
+                if (_track) {
+                    if (webstoreKeysLength < 2) {
+                        _is360chrome = true;
+                    }
+                }
+            }
+
+            if (_is360chrome) {
+                document.getElementById('notSupport360Chrome').style.display = 'block';
+            }
+        })();
+    </script>
+
+    <script src="src/plugins.js"></script>
+
+    <script type="text/javascript" src="output/src/login.js"></script>
+    <script>
+        FastClick.attach(document.body);
+    </script>
+<html>

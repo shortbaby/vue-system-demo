@@ -1,0 +1,317 @@
+.follow-wrap {
+    position: relative;
+    .left {
+        background: #fff;
+        margin-right: 350px;
+        // height: 500px;
+        padding: 20px;
+        padding-top: 42px;
+        position: relative;
+        box-sizing: border-box;
+        .mark-btn {
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            top: 5px;
+            width: 80px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            background: #edf0f5;
+            color: #999;
+            border-radius: 14px;
+            cursor: pointer;
+            &.active {
+                background: #66ccff;
+                color: #fff;
+            }
+        }
+        .more {
+            text-align: center;
+            padding: 10px;
+            span {
+                cursor: pointer;
+                font-size: 15px;
+                &:hover {
+                    color: #66ccff;
+                }
+            }
+            .spinner {
+                width: 40px;
+                height: 40px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .double-bounce1,
+            .double-bounce2 {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: #66ccff;
+                opacity: 0.6;
+                position: absolute;
+                top: 0;
+                left: 0;
+                -webkit-animation: bounce 2.0s infinite ease-in-out;
+                animation: bounce 2.0s infinite ease-in-out;
+            }
+            .double-bounce2 {
+                -webkit-animation-delay: -1.0s;
+                animation-delay: -1.0s;
+            }
+        }
+        .follow-logs {
+            max-height: 600px;
+            overflow-y: auto;
+            li {
+                list-style: none;
+            }
+            .follow-item {
+                position: relative;
+                .time-info {
+                    width: 100px;
+                    background: #fff;
+                    z-index: 10;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    text-align: center;
+                    .follow-time {
+                        display: inline-block;
+                        color: #fff;
+                        background: #ff9900;
+                        padding: 2px 15px;
+                        border-radius: 10px;
+                        font-size: 12px;
+                        margin-bottom: 6px;
+                    }
+                    .type {
+                        color: #66ccff;
+                        font-size: 42px;
+                    }
+                    .type-txt {
+                        color: #ccc;
+                        font-size: 12px;
+                    }
+                    .line {
+                        width: 2px;
+                        background: #66ccff;
+                        position: relative;
+                        height: 100px;
+                        left: 50%;
+                        margin-left: -1px;
+                    }
+                }
+                .log-msg {
+                    min-height: 120px;
+                    border-left: 4px solid #66ccff;
+                    margin-left: 46px;
+                    padding: 20px 20px 20px 60px;
+                    .log-content {
+                        background: #edf0f5;
+                        min-height: 120px;
+                        position: relative;
+                        .triangle-left {
+                            height: 0px;
+                            width: 0px;
+                            font-size: 0px;
+                            line-height: 0px;
+                            position: absolute;
+                            left: -20px;
+                            top: 10px;
+                            z-index: 12;
+                            border-bottom: 16px solid transparent;
+                            border-top: 16px solid transparent;
+                            border-right: 20px solid #edf0f5;
+                        }
+                        .icon-down {
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                            cursor: pointer;
+                            // width: 20px;
+                            // height: 20px;
+                        }
+                        .log-detail {
+                            padding: 10px 20px 10px 10px;
+                            .image-wrap {
+                                img {
+                                    margin: 10px 10px 0 0;
+                                    cursor: pointer;
+                                }
+                            }
+                            h3 {
+                                font-weight: 400;
+                                font-size: 15px;
+                                .role {
+                                    font-size: 13px;
+                                }
+                                .time {
+                                    font-size: 15px;
+                                    margin-left: 10px;
+                                    color: #868686;
+                                }
+                            }
+                            .log {
+                                padding-top: 10px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #fff;
+        float: right;
+        width: 330px;
+        // height: 500px;
+        margin-bottom: 50px;
+        .log-wrap {
+            position: relative;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            .mark {
+                text-align: right;
+                padding-right: 10px;
+                padding-left: 10px;
+                .fl {
+                    float: left;
+                }
+                .small-users{
+                    text-align: left;
+                    a {
+                        .icon-times {
+                            position: relative;
+                            top: -10px;
+                            left: -10px;
+                            background: #ff0a0a;
+                            color: #fff;
+                            border-radius: 10px;
+                        }  
+                    }
+                }
+                .small-pics {
+                	padding: 5px 10px;
+                	text-align: left;
+                	a {
+                		text-decoration: none;
+                        .icon-times {
+                            position: relative;
+                            top: -40px;
+                            left: -10px;
+                            background: #ff0a0a;
+                            color: #fff;
+                            border-radius: 10px;
+                        }
+                	}
+                }
+            }
+            textarea {
+                border: none;
+                border-radius: 8px;
+                outline: none;
+                padding: 5px 3px;
+                &:focus {
+                    border: none;
+                }
+            }
+        }
+        .log-oprations {
+            padding: 0 20px;
+            .pic {
+                display: inline-block;
+                width: 40px;
+                cursor: pointer;
+                font-size: 12px;
+                span {
+                    &:first-child {
+                        font-size: 26px;
+                    }
+                }
+                .upload-btn {
+                    width: 100%;
+                    height: 48px;
+                    font-size: 12px;
+                    position: relative;
+                    top: 5px;
+                }
+            }
+            .link {
+                width: 40px;
+                display: inline-block;
+                cursor: pointer;
+                font-size: 12px;
+                span {
+                    &:first-child {
+                        font-size: 26px;
+                    }
+                }
+            }
+            .btn-group {
+                position: relative;
+                top: -15px;
+                &.open {
+                    .dropdown-toggle {
+                        box-shadow: none;
+                    }
+                }
+                .btn-default {
+                    background: #fff;
+                    &:hover {
+                        background: #fff;
+                        box-shadow: none;
+                    }
+                    &:active {
+                        background: #fff;
+                        box-shadow: none;
+                    }
+                }
+            }
+            .btn-primary {
+                position: relative;
+                width: 50px;
+                top: -15px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.down-popover-menu {
+    min-width: 80px;
+    li {
+        padding: 5px 0px 5px 10px;
+        cursor: pointer;
+        &:hover {
+            background: #eee;
+        }
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}

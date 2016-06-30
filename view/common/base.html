@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %} {% endblock %}</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <!-- Full screen -->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <!-- iOS mobile-web-app -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="" />
+
+        <!-- Android mobile-web-app -->
+        <meta name="mobile-web-app-capable" content="yes" />
+        <style>
+            html {
+                font-size: 62.5%;
+            }
+        </style>
+        <!-- Browser -->
+        <link rel="shortcut icon" href="http://www.tianxiao100.com/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/src/resource/css/plugins.scss" type="text/css" />
+        {% block style %}
+        {% endblock %}
+        <!-- Other -->
+        <meta name="format-detection" content="telephone=no">
+
+    </head>
+    <body>
+        <!-- <div class="nav-bar" id="nav-bar">
+            <a href="javascript:history.go(-1);"
+               class="icon-left">
+            </a>
+            <h1>{% block title %}{% endblock %}</h1>
+            <div class="menu-button">
+                <span class="icon icon-org-info"></span>
+            </div>
+        </div> -->
+		{% block main %}
+    	{% endblock %}
+        <script type="text/javascript" src="/src/plugins.js"></script>
+        <script>
+            document.body.style.fontSize = '1.6rem';
+            FastClick.attach(document.body);
+        </script>
+        {% block script %}
+        {% endblock %}
+    </body>
+</html>

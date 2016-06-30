@@ -1,0 +1,68 @@
+{
+  "msg": "succ",
+  "code": 0,
+  "data": {
+    "list": [{
+      "commentId": 1,
+      "storageIds": "1,2",
+      "urls": "http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+      "content": "学生主要咨询的是托福，想出国留学，家庭条件比较好，不在乎钱，就想快速把成绩提高之前有参考过别的培训机构的课程，觉得不是很满意。",
+      "userId": 1234,
+       "userName":"张怡宁",
+      "studentId": 456,
+      "followType": 3,
+      "isMilestone": 1,
+      "createTime": 11123242323
+    }, {
+      "commentId": 2,
+      "storageIds": "1,2",
+      "urls": "http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+      "content": "学生主要咨询的是托福，想出国留学，家庭条件比较好，不在乎钱，就想快速把成绩提高之前有参考过别的培训机构的课程，觉得不是很满意。",
+      "userId": 1234,
+       "userName":"张怡宁",
+      "studentId": 456,
+      "followType": 3,
+      "isMilestone": 1,
+      "createTime": 11123242323
+    }, {
+      "commentId": 3,
+      "storageIds": "",
+      "urls": "",
+      "content": "学生主要咨询的是托福，想出国留学，家庭条件比较好，不在乎钱，就想快速把成绩提高之前有参考过别的培训机构的课程，觉得不是很满意。",
+      "userId": 1234,
+       "userName":"张怡宁",
+      "studentId": 456,
+      "followType": 3,
+      "isMilestone": 1,
+      "createTime": 11123242323
+    }, {
+      "commentId": 4,
+      "storageIds": "",
+      "urls": "",
+      "content": "学生主要咨询的是托福，想出国留学，家庭条件比较好，不在乎钱，就想快速把成绩提高之前有参考过别的培训机构的课程，觉得不是很满意。",
+      "userId": -1,
+       "userName":"",
+      "studentId": 456,
+      "followType": 3,
+      "isMilestone": 1,
+      "createTime": 11123242323
+    }, {
+      "commentId": 5,
+      "storageIds": "",
+      "urls": "",
+      "content": "学生主要咨询的是托福，想出国留学，家庭条件比较好，不在乎钱，就想快速把成绩提高之前有参考过别的培训机构的课程，觉得不是很满意。",
+      "userId": -1,
+       "userName":"",
+      "studentId": 456,
+      "followType": 3,
+      "isMilestone": 1,
+      "createTime": 11123242323
+    }]
+  },
+  "pageDto": {
+    "count": 33,
+    "curPageCount": 20,
+    "pageNum": 1,
+    "pageSize": 20
+  }
+}

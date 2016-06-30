@@ -1,0 +1,23 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [{
+            "id": 92,
+            "name": "张老师的课程",
+            "number": "0001JJ92",
+            "totalLessons": 7,
+            "signLessons": 6,
+            "status": 2,
+            "statusStr": "上课中",
+            "lessons": null
+        }]
+    },
+    "pageDto": {
+        "count": 5,
+        "curPageCount": 5,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

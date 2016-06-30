@@ -1,0 +1,71 @@
+{
+    "code": 0,
+    "msg": "succ",
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "day": "2016-03-23",
+                "section": "09:30~10:30",
+                "index": 2,
+                "subTypeName": "口语",
+                "roomName": "302",
+                "schoolName": "中南校区",
+                "teacherName": "徐官龙",
+                "checkinId": 123,
+                "signStatus": 1,
+                "signStatusStr": "已签到",
+                "remarks": ""
+            },
+            {
+                "id": 2,
+                "day": "2016-03-23",
+                "section": "09:30~10:30",
+                "index": 2,
+                "subTypeName": "口语",
+                "roomName": "302",
+                "schoolName": "中南校区",
+                "teacherName": "徐官龙",
+                "checkinId": 123,
+                "signStatus": 1,
+                "signStatusStr": "已签到",
+                "remarks": "已在托福ABC1234班补课"
+            },
+            {
+                "id": 3,
+                "day": "2016-03-23",
+                "section": "09:30~10:30",
+                "index": 2,
+                "subTypeName": "口语",
+                "roomName": "302",
+                "schoolName": "中南校区",
+                "teacherName": "徐官龙",
+                "checkinId": 123,
+                "signStatus": 1,
+                "signStatusStr": "已签到",
+                "remarks": ""
+            },
+            {
+                "id": 4,
+                "day": "2016-03-23",
+                "section": "09:30~10:30",
+                "index": 2,
+                "subTypeName": "口语",
+                "roomName": "302",
+                "schoolName": "中南校区",
+                "teacherName": "徐官龙",
+                "checkinId": null,
+                "signStatus": 1,
+                "signStatusStr": "未签到",
+                "remarks": ""
+            }
+        ]
+    },
+    "pageDto": {
+        "count": 0,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 0
+    }
+}

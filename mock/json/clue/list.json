@@ -1,0 +1,220 @@
+{
+    "msg": "succ",
+    "code": 0,
+    "data": {
+        "header": [{
+            "name": "id",
+            "showName": "id",
+            "type": "DIGITAL",
+            "lock": false,
+            "hidden": true,
+            "defaultProp": true
+        }, {
+            "name": "name",
+            "showName": "学员姓名",
+            "type": "STRING",
+            "lock": true,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "mobile",
+            "showName": "学员手机",
+            "type": "STRING",
+            "lock": true,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "parentName",
+            "showName": "家长姓名",
+            "type": "STRING",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "parentMobile",
+            "showName": "家长手机",
+            "type": "STRING",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "nextRemindTime",
+            "showName": "下次跟进时间",
+            "type": "DIGITAL",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "createTime",
+            "showName": "添加时间",
+            "type": "DIGITAL",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": false
+        }, {
+            "name": "consultStatus",
+            "showName": "跟进状态",
+            "type": "DIGITAL",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": true
+        }],
+        "result": [{
+            "id": 1234,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12341,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 123411,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 1234111,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12341111,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12342,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 123422,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 1234222,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12342222,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 123433,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 1234333,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12343333,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 12344,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 123445,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        },
+        {
+            "id": 123446,
+            "name": "张三",
+            "mobile": "18812347655",
+            "parentName": "张三他爹",
+            "parentMobile": "18987652763",
+            "nextRemindTime": 11124312431231,
+            "createTime": 1212121212,
+            "consultStatus": 0
+        }]
+    },
+    "pageDto": {
+        "count": 349,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 18
+    }
+}

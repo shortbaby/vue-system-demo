@@ -1,0 +1,43 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [{
+            "id": 1,
+            "name": "校长",
+            "creatorId": 14,
+            "creatorName": "孔祥印",
+            "members": 0,
+            "type": 0
+        }, {
+            "id": 2,
+            "name": "教师",
+            "creatorId": 14,
+            "creatorName": "孔祥印",
+            "members": 0,
+            "type": 0
+        }, 
+        {
+            "id": 2,
+            "name": "教师",
+            "creatorId": -1,
+            "creatorName": "系统内置",
+            "members": 0,
+            "type": 0
+        }, {
+            "id": 3,
+            "name": "咨询顾问1",
+            "creatorId": 14,
+            "creatorName": "孔祥印",
+            "members": 0,
+            "type": 0
+        }]
+    },
+    "pageDto": {
+        "count": 4,
+        "curPageCount": 3,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

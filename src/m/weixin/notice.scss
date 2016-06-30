@@ -1,0 +1,18 @@
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstraplite';
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/m';
+
+.main {
+	padding: 1rem;
+	h3 {
+		padding: 1rem 0;
+	}
+	.time {
+		color: #66ccff;
+		padding-bottom: 1rem;
+	}
+	.content {
+		padding-bottom: 1rem;
+	}
+}

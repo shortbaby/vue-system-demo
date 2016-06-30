@@ -1,0 +1,231 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 2,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1"
+                ],
+                "right": 1,
+                "score": 10
+            },
+            {   
+                "id": 2,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1"
+                ],
+                "right": 1,
+                "score": 10
+            },
+            {
+                "id": 3,
+                "name": "你在跟谁学吗？",
+                "subjectId": 1,
+                "questionType": 1,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1",
+                    "2"
+                ],
+                "score": 10
+            },
+            {
+                "id": 4,
+                "name": "你在跟谁学吗？",
+                "subjectId": 1,
+                "questionType": 1,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1",
+                    "2"
+                ],
+                "score": 10
+            },
+            {
+                "id": 5,
+                "name": "[{\"type\":\"fill\",\"content\":\"How do you  find\"},{\"type\":\"blank\",\"content\":\"classmates\"},{\"type\":\"fill\",\"content\":\"How do you  find\"},{\"type\":\"blank\",\"content\":\"classmates\"}]",
+                "subjectId": 1,
+                "questionType": 2,
+                "phase": 1,
+                "answer": [
+                    "孔祥印",
+                    "程序员"
+                ],
+                "score": 10
+            }, 
+            {
+                "id": 6,
+                "name": "请描述一下世界史",
+                "subjectId": 1,
+                "questionType": 3,
+                "phase": 2,
+                "score": 10
+            },       
+            {
+                "id": 7,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 2,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1"
+                ],
+                "right": 1,
+                "score": 10
+            },
+            {
+                "id": 8,
+                "name": "你在跟谁学吗？",
+                "subjectId": 1,
+                "questionType": 1,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1",
+                    "2"
+                ],
+                "score": 10
+            },
+            {
+                "id": 9,
+                "name": "请描述一下世界史",
+                "subjectId": 1,
+                "questionType": 3,
+                "phase": 1,
+                "score": 10
+            },
+            {
+                "id": 10,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1"
+                ],
+                "right": 1,
+                "score": 10
+            },
+            {
+                "id": 11,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1"
+                ],
+                "right": 1,
+                "score": 10
+            },
+            {
+                "id": 12,
+                "name": "你在跟谁学吗？",
+                "subjectId": 1,
+                "questionType": 1,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1",
+                    "2"
+                ],
+                "score": 10
+            },
+            {
+                "id": 13,
+                "name": "你在跟谁学吗？",
+                "subjectId": 1,
+                "questionType": 1,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "answer": [
+                    "1",
+                    "2"
+                ],
+                "score": 10
+            },
+            {
+                "id": 14,
+                "name": "你在跟谁学吗？你干嘛",
+                "subjectId": 1,
+                "questionType": 0,
+                "phase": 1,
+                "options": [
+                    "是",
+                    "不是",
+                    "其他"
+                ],
+                "right": 1,
+                "answer": [
+                    "1"
+                ],
+                "score": 10
+            }
+            
+        ]
+    },
+    "pageDto": {
+        "count": 40,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 2
+    }
+}

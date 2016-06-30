@@ -1,0 +1,99 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 0,
+                "statusStr": "处理中",
+                "remark": ""
+            },
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 2,
+                "statusStr": "已通过",
+                "remark": ""
+            },
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 3,
+                "statusStr": "已拒绝",
+                "remark": "不同意"
+            },
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 1,
+                "statusStr": "待审核",
+                "remark": ""
+            },
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 1,
+                "statusStr": "待审核",
+                "remark": ""
+            },
+            {
+                "id": 1,
+                "applyId": 2,
+                "confirmId": 3,
+                "confirmName": "张三",
+                "classesName": "火箭班",
+                "applyTime": 1477827824324,
+                "confirmTime": 147792843433,
+                "applyType": 1,
+                "applyTypeStr": "排课申请",
+                "status": 1,
+                "statusStr": "待审核",
+                "remark": ""
+            }
+        ]
+    },
+    "pageDto": {
+        "count": 40,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 2
+    }
+}

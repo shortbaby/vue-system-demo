@@ -1,0 +1,52 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "personNum":{
+            "statistics":[
+                {
+                    "schoolId":123,
+                    "schoolName":"光谷校区",
+                    "vipNum":12,
+                    "groupNum":20,
+                    "totalNum":32
+                },
+                {
+                    "schoolId":456,
+                    "schoolName":"中南校区",
+                    "vipNum":24,
+                    "groupNum":30,
+                    "totalNum":54
+                }
+            ],
+            "sum":{
+                "vip":36,
+                "group":50,
+                "total":86
+            }
+        },
+        "personTime":{
+            "statistics":[
+                {
+                    "schoolId":123,
+                    "schoolName":"光谷校区",
+                    "vipNum":12,
+                    "groupNum":20,
+                    "totalNum":32
+                },
+                {
+                    "schoolId":456,
+                    "schoolName":"中南校区",
+                    "vipNum":24,
+                    "groupNum":30,
+                    "totalNum":54
+                }
+            ],
+            "sum":{
+                "vip":36,
+                "group":50,
+                "total":86
+            }
+        }
+    }
+}

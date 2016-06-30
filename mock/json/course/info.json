@@ -1,0 +1,48 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "classesInfo": {
+            "info": {
+                "id": 6,
+                "number": "FDGSJKVJ6",
+                "name": "但是十分大方",
+                "subjectId": 8,
+                "subjectName": "一笑了之",
+                "classesType": 0,
+                "startTime": 1464796800000,
+                "expectedEndTime": 1468944000000,
+                "price": 21300,
+                "capacity": 32,
+                "schoolId": 1,
+                "schoolName": "武广校区",
+                "totalLesson": 4,
+                "studyPhase": 0,
+                "signCount": 0,
+                "classesStatus": 0,
+                "totalPrice": 2300,
+                "passedLessons": 0
+            },
+            "classesDetails": [{
+                "id": 7,
+                "name": null,
+                "totalLesson": 1,
+                "finishLesson": 0,
+                "subTypeId": 0
+            }, {
+                "id": 8,
+                "name": "核物理",
+                "totalLesson": 1,
+                "finishLesson": 0,
+                "subTypeId": 3
+            }, {
+                "id": 9,
+                "name": "核物理",
+                "totalLesson": 2,
+                "finishLesson": 0,
+                "subTypeId": 3
+            }]
+        },
+        "summarys": []
+    }
+}

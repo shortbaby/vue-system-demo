@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "name": "xx",
+        "number": "FD391604240000",
+        "price": 6000,
+        "realPayAmount": 2000,
+        "payType":  1,
+        "payTypeStr": "现金",
+        "signer": "孔祥印",
+        "signTime": 1464070885000,
+        "agreementType": 2,
+        "agreementTypeStr": "续费合同",
+        "details": [
+            {
+                "name": "xxxx",
+                "price": 50000,
+                "discount": 80,
+                "grantAmount": 5000,
+                "receivalbleExpense": 35000,
+                "realPayAmount": 35000
+            }
+        ]
+    }
+}

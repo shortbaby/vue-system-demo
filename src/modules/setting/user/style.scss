@@ -1,0 +1,46 @@
+#userForm {
+
+    .form-group {
+        input[type="text"] {
+            width: 100%;
+        }
+
+        .btn-group {
+            width: 100%;
+            button {
+                height: 38px;
+                width: 100%;
+            }
+        }
+    }
+
+    .option-all {
+        position: absolute;
+        top: -12px;
+        left: 20px;
+        z-index: 10;
+        padding: 0 4px;
+        background: #efefef;
+
+        > span {
+            margin-left: 5px;
+        }
+    }
+
+    .option-wrap {
+        position: relative;
+        margin-top: 10px;
+        padding: 24px;
+        border: 1px dashed #333;
+    }
+
+    .option-item {
+        float: left;
+        margin-right: 20px;
+    }
+
+    input[type="checkbox"] {
+        height: 20px;
+    }
+
+}

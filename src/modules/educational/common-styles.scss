@@ -1,0 +1,30 @@
+.educational {
+	input[type="checkbox"] {
+		-webkit-appearance: checkbox;
+	}
+	input[type="radio"] {
+		-webkit-appearance: radio;
+	}
+	background: #fff;
+	padding: 0 10px 10px 10px;
+	.option {
+		.btn {
+			font-size: 16px;
+			padding: 0 30px;
+			+ .btn {
+				margin-left: 10px;
+			}
+		}
+	}
+ 	.process-cell {
+ 		border-radius: 4px;
+ 		color: #fff;
+ 		padding: 5px 10px;
+ 		font-size: 14px;
+ 		background: #02a4f9;
+ 	}
+}
+#sign {
+	.select-wrap {
+	}
+}

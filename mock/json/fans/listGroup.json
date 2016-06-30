@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [
+
+            {
+                "id": 1,
+                "name": "托福组"
+            }, {
+                "id": 2,
+                "name": "雅思组"
+            }, {
+                "id": 3,
+                "name": "托福组"
+            }, {
+                "id": 4,
+                "name": "雅思组"
+            }, {
+                "id": 5,
+                "name": "托福组"
+            }, {
+                "id": 6,
+                "name": "雅思组"
+            }, {
+                "id": 7,
+                "name": "托福组"
+            }, {
+                "id": 8,
+                "name": "雅思组"
+            }
+        ]
+    },
+    "pageDto": {
+        "count": 0,
+        "curPageCount": null,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 0
+    }
+}

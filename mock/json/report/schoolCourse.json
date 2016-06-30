@@ -1,0 +1,316 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "vipClasses": [
+            4,
+            6,
+            5,
+            0,
+            0,
+            15
+        ],
+        "classes": [
+            {
+                "schoolId": 1,
+                "schoolName": "飞渡教育",
+                "vipNum": 4,
+                "groupNum": 5,
+                "totalNum": 9,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 40,
+                "schoolName": "东西湖校区",
+                "vipNum": 6,
+                "groupNum": 3,
+                "totalNum": 9,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 41,
+                "schoolName": "QA大区1",
+                "vipNum": 5,
+                "groupNum": 8,
+                "totalNum": 13,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 42,
+                "schoolName": "光谷校区",
+                "vipNum": 0,
+                "groupNum": 6,
+                "totalNum": 6,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 43,
+                "schoolName": "张兵的校区",
+                "vipNum": 0,
+                "groupNum": 1,
+                "totalNum": 1,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 0,
+                "schoolName": "总计",
+                "vipNum": 15,
+                "groupNum": 23,
+                "totalNum": 38,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            }
+        ],
+        "startClassesNum": [
+            3,
+            4,
+            10,
+            4,
+            0
+        ],
+        "vipPersonNum": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "groupClasses": [
+            5,
+            3,
+            8,
+            6,
+            1,
+            23
+        ],
+        "vipPersonTime": [
+            100,
+            140,
+            47,
+            0,
+            0,
+            287
+        ],
+        "personNum": [
+            {
+                "schoolId": 1,
+                "schoolName": "飞渡教育",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 40,
+                "schoolName": "东西湖校区",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 41,
+                "schoolName": "QA大区1",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 42,
+                "schoolName": "光谷校区",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 43,
+                "schoolName": "张兵的校区",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 0,
+                "schoolName": "总计",
+                "vipNum": 0,
+                "groupNum": 0,
+                "totalNum": 0,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            }
+        ],
+        "endClassesNum": [
+            0,
+            0,
+            2,
+            0,
+            0
+        ],
+        "vipCourse": [
+            10,
+            14,
+            9,
+            0,
+            0,
+            33
+        ],
+        "personTime": [
+            {
+                "schoolId": 1,
+                "schoolName": "飞渡教育",
+                "vipNum": 100,
+                "groupNum": 46,
+                "totalNum": 33,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 40,
+                "schoolName": "东西湖校区",
+                "vipNum": 140,
+                "groupNum": 68,
+                "totalNum": 32,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 41,
+                "schoolName": "QA大区1",
+                "vipNum": 47,
+                "groupNum": 86,
+                "totalNum": 25,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 42,
+                "schoolName": "光谷校区",
+                "vipNum": 0,
+                "groupNum": 63,
+                "totalNum": 28,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 43,
+                "schoolName": "张兵的校区",
+                "vipNum": 0,
+                "groupNum": 6,
+                "totalNum": 5,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 0,
+                "schoolName": "总计",
+                "vipNum": 287,
+                "groupNum": 269,
+                "totalNum": 123,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            }
+        ],
+        "groupCourse": [
+            13,
+            7,
+            13,
+            27,
+            3,
+            63
+        ],
+        "course": [
+            {
+                "schoolId": 1,
+                "schoolName": "飞渡教育",
+                "vipNum": 10,
+                "groupNum": 13,
+                "totalNum": 23,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 40,
+                "schoolName": "东西湖校区",
+                "vipNum": 14,
+                "groupNum": 7,
+                "totalNum": 21,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 41,
+                "schoolName": "QA大区1",
+                "vipNum": 9,
+                "groupNum": 13,
+                "totalNum": 22,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 42,
+                "schoolName": "光谷校区",
+                "vipNum": 0,
+                "groupNum": 27,
+                "totalNum": 27,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 43,
+                "schoolName": "张兵的校区",
+                "vipNum": 0,
+                "groupNum": 3,
+                "totalNum": 3,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            },
+            {
+                "schoolId": 0,
+                "schoolName": "总计",
+                "vipNum": 33,
+                "groupNum": 63,
+                "totalNum": 96,
+                "startClassesNum": 0,
+                "endClassesNum": 0
+            }
+        ],
+        "schoolName": [
+            "飞渡教育",
+            "东西湖校区",
+            "QA大区1",
+            "光谷校区",
+            "张兵的校区",
+            "总计"
+        ],
+        "groupPersonNum": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "groupPersonTime": [
+            46,
+            68,
+            86,
+            63,
+            6,
+            269
+        ]
+    }
+}

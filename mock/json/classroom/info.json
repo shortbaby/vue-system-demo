@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 7,
+        "name": "中南207",
+        "capacity": 50,
+        "orgSchool": "百家互联",
+        "schoolId": 1,
+        "status": 0,
+        "statusLabel": "启用"
+    }
+}

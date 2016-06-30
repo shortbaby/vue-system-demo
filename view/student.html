@@ -1,0 +1,22 @@
+{% extends './common/base.html' %}
+
+{% block title %}
+	学生中心
+{% endblock %}
+
+{% block style %}
+	<link rel="stylesheet" href="/src/m/studentCenter/student.scss" type="text/css" />
+{% endblock %}
+
+{% block main %}
+	<toast :show.sync="showToast" :type="toastType" v-cloak>{{ toastMessage }}</toast>
+	<router-view>
+    </router-view>
+{% endblock %}
+
+{% block script %}
+	<script src="/output/src/student.js"></script>
+	<script>
+        FastClick.attach(document.body);
+    </script>
+{% endblock %}

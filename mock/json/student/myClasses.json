@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "msg": "succ",
+    "data": {
+        "list": [{
+            "id": 1,
+            "name": "托福冲刺班",
+            "number": "xsdlfja",
+            "totalLessons": 25,
+            "signLessons": 12,
+            "status": "已退班",
+            "lessons": [{
+                "id": 123,
+                "name": "口语",
+                "totalLesson": 15,
+                "finishLesson": 5
+            }, {
+                "id": 456,
+                "name": "听力",
+                "totalLesson": 10,
+                "finishLesson": 7
+            }]
+        },
+        {
+            "id": 2,
+            "name": "托福冲刺班",
+            "number": "xsdlfja",
+            "totalLessons": 25,
+            "signLessons": 12,
+            "status": "已退班",
+            "lessons": [{
+                "id": 123,
+                "name": "口语",
+                "totalLesson": 15,
+                "finishLesson": 5
+            }, {
+                "id": 456,
+                "name": "听力",
+                "totalLesson": 10,
+                "finishLesson": 7
+            }]
+        }]
+    },
+    "pageDto": {
+        "count": 30,
+        "curPageCount": null,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 2
+    }
+}

@@ -1,0 +1,15 @@
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstraplite';
+@import '../../../dep/dropload/dropload.css';
+
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/vue';
+@import '../../resource/css/common/variable';
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/gobal';
+@import '../../resource/css/common/override';
+@import '../../resource/css/common/slide';
+@import '../../resource/css/common/tabs';
+@import '../../resource/css/common/profile';
+
+// modules
+@import '../../resource/css/common/m';

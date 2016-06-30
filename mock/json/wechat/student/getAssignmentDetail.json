@@ -1,0 +1,99 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "questions": [
+      {
+        "id": 63,
+        "name": "1、He started ______ English at the age of 5. ",
+        "questionType": 0,
+        "options": [
+          "knowing ",
+          "to know",
+          "know",
+          "being known"
+        ],
+        "select": [
+          "2"
+        ],
+        "score": 2,
+        "answer": [
+          "1"
+        ],
+        "result": 1,
+        "getScore": 0,
+        "comment": null,
+        "submited": true
+      },
+      {
+        "id": 60,
+        "name": "吃饭了吗？",
+        "questionType": 1,
+        "options": [
+          "吃了",
+          "没吃",
+          "准备吃",
+          "其他"
+        ],
+        "select": [
+          "1"
+        ],
+        "score": 10,
+        "answer": [
+          "0",
+          "2"
+        ],
+        "result": 1,
+        "getScore": 0,
+        "comment": null,
+        "submited": true
+      },
+      {
+        "id": 61,
+        "name": "[{\"type\":\"fill\",\"content\":\"中午吃的什么\"},{\"type\":\"blank\",\"content\":\"茄子\"},{\"type\":\"fill\",\"content\":\"，还有呢\"},{\"type\":\"blank\",\"content\":\"西瓜\"}]",
+        "questionType": 2,
+        "options": null,
+        "select": [
+          "鱼鱼",
+          "组"
+        ],
+        "score": 15,
+        "answer": [
+          "茄子",
+          "西瓜"
+        ],
+        "result": 1,
+        "getScore": 0,
+        "comment": null,
+        "submited": true
+      },
+      {
+        "id": 62,
+        "name": "请描述一下世界史？",
+        "questionType": 3,
+        "options": null,
+        "select": [
+          "呜呜呜"
+        ],
+        "score": 30,
+        "answer": [],
+        "result": 0,
+        "getScore": 1,
+        "comment": "",
+        "submited": true
+      }
+    ],
+    "paperStudentId": 21,
+    "name": "6",
+    "questionNum": 4,
+    "paperId": 20,
+    "submitTime": 1467201897000,
+    "latestTime": 1467258210000,
+    "status": 2,
+    "statusStr": "已批改",
+    "rightNum": 1,
+    "errorNum": 3,
+    "score": 1,
+    "remind": "剩余15小时"
+  }
+}

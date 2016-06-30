@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "succ",
+  "data": [
+     {
+      "id": 134,
+      "systemConfig": 1,
+      "paramDesc": "线索锁定周期(天)",
+      "value": 30
+     },
+     {
+      "id": 234,
+      "systemConfig": 2,
+      "paramDesc": "提醒老师查看课表时间（默认每晚9点）",
+      "value": "21:00"
+     }
+  ]
+}

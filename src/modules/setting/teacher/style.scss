@@ -1,0 +1,25 @@
+#teacherForm {
+    .form-group {
+        input[type="text"] {
+            width: 100%;
+        }
+
+        input[type="checkbox"] {
+            height: 18px;
+        }
+
+        .option-item {
+            margin-right: 10px;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .btn-group {
+            width: 100%;
+            > button {
+                width: 100%;
+                height: 38px;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.students {
+	input[type="checkbox"] {
+		-webkit-appearance: checkbox;
+	}
+	input[type="radio"] {
+		-webkit-appearance: radio;
+	}
+	background: #fff;
+	padding: 0 10px 10px 10px;
+	.option {
+		position: relative;
+		.opration {
+			// display: inline-block;
+			// position: absolute;
+			// right: 20px;
+		// 	top: 5px;
+		// 	.search {
+		// 		width: 50px;
+		// 	}
+		// 	.reset {
+		// 		width: 50px;
+		// 	}
+		// 	.batch {
+		// 		+ .btn-group {
+		// 			position: relative;
+		// 			left: -4px;
+		// 			background: #0093e0;
+		// 			.btn {
+		// 				font-size: 18px;
+		// 				padding: 3px 5px;
+		// 				position: relative;
+		// 				left: -4px;
+		// 				background: #0093e0;
+	 //    				border: 1px solid #0093e0;
+						
+		// 				&:active {
+		// 					box-shadow: none;
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+			// .add {
+			// 	+ .btn-group {
+			// 		position: relative;
+			// 		left: -4px;
+			// 		background: #0093e0;
+			// 		.btn {
+			// 			font-size: 18px;
+			// 			padding: 3px 5px;
+			// 			position: relative;
+			// 			left: -4px;
+			// 			background: #0093e0;
+	  //   				border: 1px solid #0093e0;
+						
+			// 			&:active {
+			// 				box-shadow: none;
+			// 			}
+			// 		}
+			// 	}
+			// }
+			.batch-student-menu, .add-student-menu {
+				min-width: 110px;
+				left: -80px;
+				li {
+					padding: 5px 0 5px 10px;
+					cursor: pointer;
+					&:hover {
+						color: #0093e0;
+					}
+				}
+			}
+		}
+		.btn-set {
+			cursor: pointer;
+			display: inline-block;
+			height: 33px;
+			line-height: 33px;
+			width: 33px;
+			text-align: center;
+			position: relative;
+			top: 1px;
+			> span {
+				font-size: 28px;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+

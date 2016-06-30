@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "list": [{
+            "id": 1,
+            "name": "学员名称",
+            "nickName": "微信昵称",
+            "headImgUrl": "http://img.gsxservice.com/4769268_qhwfm7q5.jpeg@1e_100w_100h_1c_0i_1o_90Q_1x",
+            "fansType": 0,
+            "focusTime": 1464665761462,
+            "groupId": 1,
+            "groupName": "托福组",
+            "area": "中国 上海 长宁"
+        }]
+    },
+    "pageDto": {
+        "count": 40,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 2
+    }
+}

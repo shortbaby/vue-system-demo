@@ -1,0 +1,32 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 2,
+        "studentId": 2,
+        "studentName": "孔祥印",
+        "studentMobile": "15087696999",
+        "parentName": "孔伯伯",
+        "parentMobile": "12",
+        "singerTime": 1464070885000,
+        "singerId": 14,
+        "singerName": "孔祥印",
+        "agreementType": 0,
+        "agreementTypeStr": "新合同",
+        "schoolId": 1,
+        "schoolName": "百家互联",
+        "totalGrantAmount": 800000000,
+        "totalReceivalbleExpense": 100000000,
+        "totalRealPayAmount": 799860000, 
+        "detail": [{
+            "id": 3,
+            "isDel": 0,
+            "name": "托福冲刺提高班-编辑版",
+            "price": 50000,
+            "discount": 80,
+            "grantAmount": 5000,
+            "receivalbleExpense": 35000,
+            "realPayAmount": 35000  
+        }]
+    }
+}

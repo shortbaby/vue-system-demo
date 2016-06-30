@@ -1,0 +1,120 @@
+.report-tabs {
+	border-bottom: 1px solid #66ccff;
+    margin-top: 10px;
+    //margin-bottom: 10px;
+    background: #fff;
+    padding-left: 20px;
+    li {
+    	list-style: none;
+	    display: inline-block;
+	    margin-right: 40px;
+	    padding: 8px 0;
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #868686;
+	    cursor: pointer;
+	    &.current {
+	    	color: #66ccff;
+    		border-bottom: 3px solid #66ccff;
+	    }
+    }
+}
+.report-wrap {
+	padding-top: 10px;
+	background: #fff;
+	.search-wrap {
+		// padding-top: 20px;
+		.time-range {
+			width: 410px;
+			position: relative;
+			.step {
+				position: relative;
+				left: -3px;
+			}
+			.time-input {
+				width: 120px;
+			}
+			.icon-calendar {
+				position: absolute;
+				&.cal-1 {
+					top: 10px;
+					right: 185px;
+				}
+				&.cal-2 {
+					top: 10px;
+					right: 30px;
+				}
+			}
+		}
+		.opration {
+			display: inline-block;
+		}
+	}
+	.option {
+		.btn {
+			padding: 0 30px;
+			margin-left: 10px;
+		}
+		height: 40px;
+		line-height: 40px;
+	}
+}
+.report-table {
+	> div {
+		display: inline-block;
+		width: 45%;
+		margin-bottom: 20px;
+		// padding: 10px;
+		padding-left: 20px;
+		p {
+			font-size: 18px;
+			font-weight: 600;
+		}
+		> table {
+			width: 100%;
+			border: 1px solid #ccc;
+			 tr {
+				border-bottom: 1px solid #ccc;
+				&:last-child {
+					border-bottom: none;
+				}
+				td {
+					text-align: center;
+					padding: 5px 0;
+					border-right: 1px solid #ccc;
+					&:last-child {
+						border-right: none;
+					}
+				}
+			}
+		}
+	}
+}
+.table-container {
+	padding-bottom: 40px;
+	margin: 10px 30px;
+	table {
+		width: 100%;
+		border: 1px solid #ccc;
+		tr {
+			border-bottom: 1px solid #ccc;
+			&:last-child {
+				border-bottom: none;
+			}
+			td {
+				text-align: center;
+				padding: 5px 0;
+				border-right: 1px solid #ccc;
+				&:last-child {
+					border-right: none;
+				}
+			}
+		}
+	}
+}
+.report-container {
+	margin: 20px 30px;
+	height: 500px;
+	background: #efefef;
+	border: 1px solid #efefef;
+}

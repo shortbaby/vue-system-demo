@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "orgschools": [
+      {
+          "id": 1,
+          "name": "百家互联"
+      },
+      {
+          "id": 2,
+          "name": "百家互联2"
+      }
+    ]
+  }
+}

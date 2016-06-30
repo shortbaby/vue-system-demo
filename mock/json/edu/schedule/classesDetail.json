@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "info": {
+            "id": 1,
+            "number": "TOKL102948",
+            "name": "火箭班",
+            "subjectId": 1,
+            "subjectName": "雅思",
+            "classesType": 0,
+            "classesTypeName": "VIP",
+            "startTime": 1426067233123,
+            "expectedEndTime": 1426067233123,
+            "price": 1000,
+            "capacity": 10,
+            "schoolId": 0,
+            "schoolName": "武广校区",
+            "discount": 300,
+            "totalLesson": 30,
+            "studyPhase": 0,
+            "signCount": 10,
+            "classesStatus": 0,
+            "totalPrice": 1500,
+            "passedLessons": 10
+        },
+        "classesDetails": [
+            {
+                "id": 0,
+                "name": "听力",
+                "totalLesson": 20,
+                "finishLesson": 0,
+                "subTypeId": 0
+            }
+        ]
+    }
+}

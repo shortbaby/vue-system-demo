@@ -1,0 +1,52 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "studentId": 1,
+        "paperStudentId": 1, 
+        "paperId": 1,
+        "classesId": 1,
+        "studentName": "张三fdsf",
+        "rightNum": 20,
+        "errorNum": 12,
+        "score": 70,
+        "status": 1,
+        "statusStr": "已提交"
+    },
+    {
+        "studentId": 2,
+        "paperStudentId": 2,
+        "paperId": 1,
+        "classesId": 1,
+        "studentName": "张三dsdasd",
+        "rightNum": 20,
+        "errorNum": 20,
+        "score": 90,
+        "status": 2,
+        "statusStr": "已批改"
+    },
+    {
+        "studentId": 3,
+        "paperStudentId": 3,
+        "paperId": 1,
+        "classesId": 1,
+        "studentName": "张三feng",
+        "rightNum": 30,
+        "errorNum": 13,
+        "score": 60,
+        "status": 1,
+        "statusStr": "已提交"
+    },
+    {
+        "studentId": 4,
+        "paperStudentId": 4,
+        "paperId": 1,
+        "classesId": 1,
+        "studentName": "张三si",
+        "rightNum": 10,
+        "errorNum": 11,
+        "score": 10,
+        "status": 1,
+        "statusStr": "已提交"
+    }]
+}

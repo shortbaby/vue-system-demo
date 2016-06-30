@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "id": 77,
+        "name": "张老师的课程",
+        "number": "TO MY VJ77",
+        "signStatus": 0,
+        "signStatusStr": "未签到",
+        "startTime": 1466737200000,
+        "endTime": 1466739900000,
+        "scheduleId": 32,
+        "signStudents": 0,
+        "totalStudents": 2,
+        "weekType": 5
+    }, {
+        "id": 39,
+        "name": "测试课程6",
+        "number": "2333JQ39",
+        "signStatus": 0,
+        "signStatusStr": "未签到",
+        "startTime": 1466816400000,
+        "endTime": 1466819100000,
+        "scheduleId": 29,
+        "signStudents": 0,
+        "totalStudents": 3,
+        "weekType": 6
+    }, {
+        "id": 77,
+        "name": "张老师的课程",
+        "number": "TO MY VJ77",
+        "signStatus": 0,
+        "signStatusStr": "未签到",
+        "startTime": 1466827200000,
+        "endTime": 1466829900000,
+        "scheduleId": 33,
+        "signStudents": 0,
+        "totalStudents": 2,
+        "weekType": 6
+    }]
+}

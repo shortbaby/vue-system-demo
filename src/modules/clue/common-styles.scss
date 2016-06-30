@@ -1,0 +1,61 @@
+.clues {
+	input[type="checkbox"] {
+		-webkit-appearance: checkbox;
+	}
+	input[type="radio"] {
+		-webkit-appearance: radio;
+	}
+	.option {
+		.opration {
+			// display: inline-block;
+			// position: absolute;
+			// right: 0px;
+			.batch {
+				// + .btn-group {
+				// 	position: relative;
+				// 	left: -4px;
+				// 	background: #0093e0;
+				// 	.btn {
+				// 		font-size: 18px;
+				// 		padding: 3px 5px;
+				// 		position: relative;
+				// 		left: -4px;
+				// 		background: #0093e0;
+	   //  				border-radius: 0 4px 0 4px;
+				// 		&:active {
+				// 			box-shadow: none;
+				// 		}
+				// 	}
+				// }
+			}
+			//官龙写的，暂时不去掉
+			// .batch-clue-menu, .add-clue-menu {
+			// 	min-width: 110px;
+			// 	left: -80px;
+			// 	line-height: 31px;
+			// 	li {
+			// 		padding: 5px 0 5px 10px;
+			// 		cursor: pointer;
+			// 		&:hover {
+			// 			color: #00a7ff;
+			// 		}
+			// 	}
+			// }
+
+		}
+		.btn-set {
+			cursor: pointer;
+			display: inline-block;
+			height: 33px;
+			line-height: 33px;
+			width: 33px;
+			text-align: center;
+			position: relative;
+			top: 1px;
+			> span {
+				font-size: 28px;
+				vertical-align: middle;
+			}
+		}
+	}
+}

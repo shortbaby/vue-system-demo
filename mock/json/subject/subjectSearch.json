@@ -1,0 +1,29 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": {
+         "list":[
+         {
+            "id": 0,
+            "name": "托福",
+            "code": "BH987",
+            "createTime":1467205727533,
+            "updateTime":1467205737533
+         },
+         {
+            "id": 1,
+            "name": "雅思",
+            "code": "BH887",
+            "createTime":1467205727533,
+            "updateTime":1467205737533
+         }
+       ]
+    },
+    "pageDto": {
+        "count": 30,
+        "curPageCount": 2,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

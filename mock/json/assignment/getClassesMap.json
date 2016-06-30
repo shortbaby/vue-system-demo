@@ -1,0 +1,24 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    { 
+        "id":1,
+        "name": "托福冲刺班",
+        "number": "xxxxxxx",
+        "studentNum":5    
+    },
+    {
+       "id":2,
+       "name": "托福强化班",
+       "number": "xxxxxxx",
+       "studentNum":5   
+    },
+    {
+       "id":4,
+       "name": "托福强化班",
+       "number": "xxxxxxx",
+       "studentNum":5   
+    }
+  ]
+}

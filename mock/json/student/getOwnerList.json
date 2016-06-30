@@ -1,0 +1,40 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": 
+    {
+     "list":[
+        {
+            "id":1234,
+            "name":"张三"
+        },
+        {
+            "id":5678,
+            "name":"李四"
+        },
+        {
+            "id":12344,
+            "name":"王五"
+        },
+        {
+            "id":56784,
+            "name":"老刘"
+        },
+        {
+            "id":12343,
+            "name":"老七"
+        },
+        {
+            "id":56782,
+            "name":"很大"
+        }
+      ]
+    },
+    "pageDto": {
+        "count": 349,
+        "curPageCount": 20,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 18
+    }
+}

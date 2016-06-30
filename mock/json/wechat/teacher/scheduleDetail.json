@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 0,
+            "day": "2015-04-02",
+            "section": "9:30~10:30",
+            "index": 1,
+            "subTypeName": "课程二级分类名称",
+            "classesId": 1,
+            "classesName": "班级名称",
+            "roomId": 1,
+            "roomName": "教室名称",
+            "schoolName": "校区名称",
+            "schoolId": 1,
+            "teacherId": 1,
+            "teacherName": "老师名称",
+            "signCount": 5,
+            "totalStudent": 15,
+            "status": 0
+        }
+    ]
+}

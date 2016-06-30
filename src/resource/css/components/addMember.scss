@@ -1,0 +1,84 @@
+.suggestion-diretive {
+    position: relative;
+    .btn-add-student {
+        cursor: pointer;
+        font-size: 20px;
+        border: 1px solid $brand;
+        background: #fcfcfc;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        > span {
+            color: $brand;
+        }
+        &:hover {
+            color: $brand;
+            background: #f9f9f9;
+        }
+    }
+    .search-member {
+        z-index: 9999;
+        left: 0;
+        position: absolute;
+        background: #FFF;
+        top: 65px;
+        .none-member {
+            text-align: center;
+            color: #999;
+            line-height: 30px;
+            border: 1px solid #ddd;
+        }
+        > input {
+            height: 30px;
+            line-height: 30px;
+        }
+        > ul {
+            padding: 0;
+            overflow: auto;
+            max-height: 300px;
+            border: 1px solid #CCC;
+            > li {
+                float: none;
+                cursor: pointer;
+                @include clearfix();
+                padding: 2px 5px;
+                list-style: none;
+                margin: 0;
+                position: relative;
+                border-bottom: 1px solid #efefef;
+
+                &.active {
+                    background-color: $brand;
+                }
+                .name {
+                    @include text-overflow();
+                    width: 130px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding-top: 3px;
+
+                    > img {
+                        border-radius: 50%;
+                        margin-right: 5px;
+                        vertical-align: middle;
+                    }
+                }
+                .icon-check {
+                    position: absolute; 
+                    top: 5px;
+                    right: 5px;   
+                    color: $brand;
+                    font-size: 20px;
+                    margin: 5px 5px 0 0;
+                }
+                display: block;
+                &:last-oft-type {
+                    border: none;
+                }
+            }
+        }
+    }
+}

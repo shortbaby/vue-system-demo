@@ -1,0 +1,208 @@
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/color';
+
+.course-wrapper {
+	> .search-wrap {
+		.input-control:nth-child(3n+1) {
+			min-width: 360px;
+		}
+
+		.date {
+			display: inline-block;
+			position: relative;
+			.half {
+				width: 100px;
+				font-size: 12px;
+			}
+			&:before {
+				position: absolute;
+				font-family: 'icomoon';
+				right: 10px;
+				top: 10px;
+				font-size: 16px;
+				content: "\e908";
+				color: #999;
+				z-index: 10;
+			}
+		}
+
+		.time {
+			&:before {
+				position: absolute;
+				font-family: 'icomoon';
+				right: 10px;
+				top: 11px;
+				font-size: 18px;
+				content: "\e901";
+				color: #999;
+				z-index: 10;
+			}
+		}
+	}
+
+	// > .option {
+	// 	@include flex-container;
+	// 	justify-content: space-between;
+	// 	align-items: flex-end;
+	// 	padding: 10px 0;
+	// }
+}
+
+.detail-base-course {
+	margin: 30px;
+
+	> .info-header {
+		@include flex-container();
+		justify-content: space-around;
+		background: #fff;
+
+		.info-item-wrap {
+			@include flex-container;
+			align-items: center;
+		}
+
+		li {
+			list-style: none;
+			position: relative;
+			border-right: 1px solid #edf0f5;
+			margin-top: 10px;
+			padding: 0 50px;
+			text-align: center;
+			&:first-child {
+				@include flex-container;
+				flex-direction: column;
+				align-items: center;
+				> h2 {
+					font-size: 28px
+				}
+				> div {
+					margin: 20px auto;
+					border-radius: 10px;
+					width: 75px;
+					height: 30px;
+					line-height: 30px;
+					color: #fff;
+					background: #ea99f7;
+				}
+			}
+			&:last-child {
+				border-right: none;
+			}
+			label {
+				color: #aaa;
+			}
+		}
+
+		.info-item {
+			margin-right: 50px;
+			&:last-child {
+				margin-right: 0;
+			}
+			> div {
+				margin-bottom: 8px;
+				font-size: 28px;
+				font-weight: bolder;
+			}
+		}
+
+		.dynamic-item-wrap {
+			@include flex-container;
+			flex-wrap: wrap;
+			align-items: center;
+			align-content: center;
+			> .dynamic-item {
+				padding: 0 10px;
+				> div {
+					margin-bottom: 8px;
+					font-size: 20px;
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}
+
+.detail-item-wrap {
+	@include clearfix();
+	> div {
+		@include flex-container;
+		align-items: center;
+		float: left;
+		width: 33%;
+		padding-bottom: 20px;
+		> label {
+			width: 112px;
+			color: #aaa;
+		}
+		> div {
+			font-size: 15px;
+		}
+	}
+}
+
+.item-course-detail {
+	.btn-default {
+		width: 150px;
+	}
+
+	input {
+		width: 120px;
+	}
+}
+
+#subjectForm, #subtypeForm {
+	.form-group {
+		width: 100%;
+
+		label {
+			display: block;
+		}
+
+		input {
+			width: 80%;
+		}
+
+		.btn-default {
+			width: 150px;
+		}
+	}
+}
+
+#courseForm, #courseEditForm {
+	.form-group {
+        > input {
+            width: 100%;
+        }
+
+        .option-item {
+            margin-right: 10px;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .btn-group {
+            width: 100%;
+            > button {
+                width: 100%;
+                height: 38px;
+            }
+        }
+
+		&:last-child {
+			width: 100%;
+		}
+        .item-course-detail {
+			@include flex-container;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 10px;
+			width: 70%;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			> input {
+				margin: 0 20px;
+			}
+		}
+    }
+}

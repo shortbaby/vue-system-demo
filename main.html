@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <base href="/"></base>
+        <meta charset="UTF-8">
+        <title>飞渡教育</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="description" content="跟谁学 机构平台 - 携手同行 共筑梦想"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=11"> 
+        <link rel="shortcut icon" href="http://www.tianxiao100.com/favicon.ico" />
+        <link rel="stylesheet" href="src/resource/css/plugins.scss" type="text/css" />
+        <link rel="stylesheet" href="src/resource/css/main.scss" type="text/css" />
+    </head>
+
+    <body>
+        <!--[if lte IE 9]>
+        <div class="not-support-browser">
+            很抱歉，在当前浏览器上，我们无法为您提供完整的功能和最好的体验。推荐使用Google Chrome浏览器来获取最好的使用体验。
+        </div>
+        <![endif]-->
+        <div class="not-support-browser not-support-360-chrome" id="notSupport360Chrome">
+            当您使用的是360(极速)浏览器时，如果网页不能正常工作，请将浏览器切换至兼容模式。
+            <a href="http://se.360.cn/v6/help/help5.html" target="_blank">如何切换？</a>
+        </div>
+        <toast :show.sync="showToast" :type="toastType" v-cloak>{{ toastMessage }}</toast>
+        <alert :show.sync="showAlert" :type="alertType" v-cloak>
+            <p>{{alertMessage}}</p>
+        </alert>
+        <confirm :show.sync="showConfirm" :width="400" :command="command" :type="confirmType" v-cloak>
+            <span slot="title-txt">提示</span>
+            <span slot="confirm-msg">{{confirmMessage}}</span>
+        </confirm>
+        <side-bar v-ref:sidebar></side-bar>
+        <div id="main" class="main">
+            <ul class="top-nav">
+                <li class="feidulogo">
+                    <img src="src/resource/img/logo-feidu-topbar.png">
+                </li>
+                <li class="link" v-cloak="true">
+                    <popover  effect="fade" placement="bottom" right="0" left="auto">
+                        <div slot="title">
+                            <span class="icon-popover"></span>
+                            <h3 class="popover-title">
+                                <span class="icon icon-quik_link"></span>
+                                <span>快捷方式</span>
+                            </h3>
+                        </div>
+                        <div slot="content">
+                            <ul class="link-do-list">
+                                <li class="" @click="showNewClue()">添加线索</li>
+                                <li class="" @click="showCheckClue()">线索查重</li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0)" class="quick-link">
+                            <span class="icon icon-quik_link"></span>
+                        </a>
+                    </popover>
+                </li>
+                <li class="msg" v-cloak="true">
+                    <popover v-ref:popover effect="fade" placement="bottom" right="0" left="auto">
+                        <div slot="title">
+                            <span class="icon-popover"></span>
+                            <h3 class="popover-title">
+                                <span class="icon icon-message"></span>
+                                <span>消息</span>
+                            </h3>
+                        </div>
+                        <div slot="content">
+                            <ul class="message-list">
+                                <li class="message-item" v-for="item in messages" track-by="$index">
+                                    <div class="left"><span class="icon-yingxiao"></span></div>
+                                    <div class="right">
+                                        <p>{{item.messageInfo.content}}</p>
+                                        <span class="time">{{item.messageInfo.dateStr}}</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p v-if="messages.length == 0">暂无消息</p>
+                            <p v-if="messages.length > 0" @click="more()" class="more">查看更多...</p>
+                        </div>
+                        <a href="javascript:void(0)" class="message">
+                            <span class="icon icon-message"><i>{{newCount}}</i></span>
+                        </a>
+                    </popover>   
+                </li>
+                <li v-cloak="true" class="arrow">
+                    <img :src="orgInfo.logo|compressImage 28 28" width="28" height="28" class="logo">
+                    <dropdown>
+                        <span data-toggle="dropdown" class="my-menu-target">{{ orgInfo.shortName }} <span class="icon-down"></span></span>
+                        <ul solt="dropdown-menu" class="dropdown-menu my-menu">
+                            <li><a href="{{ env.virgo }}logout.do">退出</a></li>
+                        </ul>
+                    </dropdown>
+                </li>
+            </ul>
+            <div class="main-content">
+                <router-view transition-mode="out-in">
+                </router-view>
+            </div>
+        </div>
+        <follow-step v-if="followStepState" :show.sync="followStepState"></follow-step>
+        <new-clue v-if="addClueState" :id.sync="modifyId"  :show.sync="addClueState"></new-clue>
+        <clue-check v-if="checkClueState" :show.sync = "checkClueState"><clue-check>
+        
+    </body>
+
+    <script type="text/javascript">
+        (function () {
+            var win = window;
+            var _is360chrome=false;
+
+            if (!win.chrome) {
+                return;
+            }
+
+            try{
+              if(typeof( chrome )!= "undefined" && typeof( chrome.webstorePrivate)!='undefined' && typeof (chrome.webstorePrivate.beginInstallWithManifest3)!='undefined'){
+                _is360chrome=true;
+              }else {
+                _is360chrome=navigator.userAgent.toLowerCase().indexOf('360ee')!=-1;
+              }
+            }catch(e){};
+
+            var _track = 'track' in document.createElement('track');
+            var webstoreKeysLength = win.chrome && win.chrome.webstore ? Object.keys(win.chrome.webstore).length : 0;
+
+            if (!_is360chrome) {
+                if (win.clientInformation && win.clientInformation.permissions) {
+                    _is360chrome = false;
+                }
+
+                if (_track) {
+                    if (webstoreKeysLength < 2) {
+                        _is360chrome = true;
+                    }
+                }
+            }
+
+            if (_is360chrome) {
+                document.getElementById('notSupport360Chrome').style.display = 'block';
+            }
+        })();
+
+    </script>
+
+    <script src="src/plugins.js"></script>
+    <script type="text/javascript" src="output/src/main.js"></script>
+    <script>
+        FastClick.attach(document.body);
+    </script>
+<html>

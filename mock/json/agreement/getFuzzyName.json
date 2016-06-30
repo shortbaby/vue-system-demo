@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 1,
+            "name": "xiaowei",
+            "mobile": "18627824732",
+            "parentName":"王思聪",
+            "parentMobile":"123"
+        },
+        {
+            "id": 2,
+            "name": "sixia",
+            "mobile": "113289379281",
+            "parentName":"王思聪",
+            "parentMobile":"123"
+        },
+        {
+            "id": 3,
+            "name": "zhangbin",
+            "mobile": "114789234984",
+            "parentName":"王思聪",
+            "parentMobile":"123"
+        }
+    ]
+}

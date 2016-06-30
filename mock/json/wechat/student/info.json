@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "name":"张三",
+        "schoolName":"中南校区",
+        "url":"http://localhost:8080/web/wechat/student/info.json?token=ssdjflas"
+    }
+}
